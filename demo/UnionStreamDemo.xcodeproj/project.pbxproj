@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06786C1F1FAB1BED003B5B77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06786C1E1FAB1BED003B5B77 /* AppDelegate.m */; };
+		06786C251FAB1BEE003B5B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06786C231FAB1BEE003B5B77 /* Main.storyboard */; };
+		06786C271FAB1BEE003B5B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06786C261FAB1BEE003B5B77 /* Assets.xcassets */; };
+		06786C2A1FAB1BEE003B5B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06786C281FAB1BEE003B5B77 /* LaunchScreen.storyboard */; };
+		06786C2D1FAB1BEE003B5B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06786C2C1FAB1BEE003B5B77 /* main.m */; };
+		06786C451FAB442C003B5B77 /* UnionStreamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06786C431FAB442B003B5B77 /* UnionStreamVC.m */; };
+		06B1CEC51FB33B620025A0A8 /* UnionSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B1CEC31FB33B620025A0A8 /* UnionSettingVC.m */; };
+		06B1CED21FB439110025A0A8 /* UnionStreamKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B1CED11FB439110025A0A8 /* UnionStreamKit.m */; };
+		585C9C3B1FB055310099302E /* UnionDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C9C321FB055300099302E /* UnionDrawingView.m */; };
+		585C9C3C1FB055310099302E /* UnionFileSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C9C341FB055300099302E /* UnionFileSelector.m */; };
+		585C9C3D1FB055310099302E /* UnionNameSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C9C361FB055300099302E /* UnionNameSlider.m */; };
+		585C9C3E1FB055310099302E /* UnionUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C9C381FB055300099302E /* UnionUIVC.m */; };
+		585C9C3F1FB055310099302E /* UnionUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C9C3A1FB055300099302E /* UnionUIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06786C1A1FAB1BED003B5B77 /* UnionStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06786C1D1FAB1BED003B5B77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06786C1E1FAB1BED003B5B77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06786C241FAB1BEE003B5B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06786C261FAB1BEE003B5B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06786C291FAB1BEE003B5B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06786C2B1FAB1BEE003B5B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06786C2C1FAB1BEE003B5B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06786C431FAB442B003B5B77 /* UnionStreamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionStreamVC.m; sourceTree = "<group>"; };
+		06786C441FAB442C003B5B77 /* UnionStreamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionStreamVC.h; sourceTree = "<group>"; };
+		06B1CEC31FB33B620025A0A8 /* UnionSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionSettingVC.m; sourceTree = "<group>"; };
+		06B1CEC41FB33B620025A0A8 /* UnionSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionSettingVC.h; sourceTree = "<group>"; };
+		06B1CED01FB439110025A0A8 /* UnionStreamKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnionStreamKit.h; path = ../source/UnionStreamKit.h; sourceTree = "<group>"; };
+		06B1CED11FB439110025A0A8 /* UnionStreamKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnionStreamKit.m; path = ../source/UnionStreamKit.m; sourceTree = "<group>"; };
+		585C9C311FB055300099302E /* UnionDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionDrawingView.h; sourceTree = "<group>"; };
+		585C9C321FB055300099302E /* UnionDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionDrawingView.m; sourceTree = "<group>"; };
+		585C9C331FB055300099302E /* UnionFileSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionFileSelector.h; sourceTree = "<group>"; };
+		585C9C341FB055300099302E /* UnionFileSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionFileSelector.m; sourceTree = "<group>"; };
+		585C9C351FB055300099302E /* UnionNameSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionNameSlider.h; sourceTree = "<group>"; };
+		585C9C361FB055300099302E /* UnionNameSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionNameSlider.m; sourceTree = "<group>"; };
+		585C9C371FB055300099302E /* UnionUIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionUIVC.h; sourceTree = "<group>"; };
+		585C9C381FB055300099302E /* UnionUIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionUIVC.m; sourceTree = "<group>"; };
+		585C9C391FB055300099302E /* UnionUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionUIView.h; sourceTree = "<group>"; };
+		585C9C3A1FB055300099302E /* UnionUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionUIView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06786C171FAB1BED003B5B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06786C111FAB1BED003B5B77 = {
+			isa = PBXGroup;
+			children = (
+				06B1CECF1FB439000025A0A8 /* UnionKits */,
+				585C9C301FB055300099302E /* UnionUIUtils */,
+				06786C1C1FAB1BED003B5B77 /* UnionStreamDemo */,
+				06786C1B1FAB1BED003B5B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06786C1B1FAB1BED003B5B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06786C1A1FAB1BED003B5B77 /* UnionStreamDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06786C1C1FAB1BED003B5B77 /* UnionStreamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				06B1CEC41FB33B620025A0A8 /* UnionSettingVC.h */,
+				06B1CEC31FB33B620025A0A8 /* UnionSettingVC.m */,
+				06786C441FAB442C003B5B77 /* UnionStreamVC.h */,
+				06786C431FAB442B003B5B77 /* UnionStreamVC.m */,
+				06786C1D1FAB1BED003B5B77 /* AppDelegate.h */,
+				06786C1E1FAB1BED003B5B77 /* AppDelegate.m */,
+				06786C231FAB1BEE003B5B77 /* Main.storyboard */,
+				06786C261FAB1BEE003B5B77 /* Assets.xcassets */,
+				06786C281FAB1BEE003B5B77 /* LaunchScreen.storyboard */,
+				06786C2B1FAB1BEE003B5B77 /* Info.plist */,
+				06786C2C1FAB1BEE003B5B77 /* main.m */,
+			);
+			path = UnionStreamDemo;
+			sourceTree = "<group>";
+		};
+		06B1CECF1FB439000025A0A8 /* UnionKits */ = {
+			isa = PBXGroup;
+			children = (
+				06B1CED01FB439110025A0A8 /* UnionStreamKit.h */,
+				06B1CED11FB439110025A0A8 /* UnionStreamKit.m */,
+			);
+			name = UnionKits;
+			sourceTree = "<group>";
+		};
+		585C9C301FB055300099302E /* UnionUIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				585C9C311FB055300099302E /* UnionDrawingView.h */,
+				585C9C321FB055300099302E /* UnionDrawingView.m */,
+				585C9C331FB055300099302E /* UnionFileSelector.h */,
+				585C9C341FB055300099302E /* UnionFileSelector.m */,
+				585C9C351FB055300099302E /* UnionNameSlider.h */,
+				585C9C361FB055300099302E /* UnionNameSlider.m */,
+				585C9C371FB055300099302E /* UnionUIVC.h */,
+				585C9C381FB055300099302E /* UnionUIVC.m */,
+				585C9C391FB055300099302E /* UnionUIView.h */,
+				585C9C3A1FB055300099302E /* UnionUIView.m */,
+			);
+			path = UnionUIUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06786C191FAB1BED003B5B77 /* UnionStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06786C301FAB1BEE003B5B77 /* Build configuration list for PBXNativeTarget "UnionStreamDemo" */;
+			buildPhases = (
+				06786C161FAB1BED003B5B77 /* Sources */,
+				06786C171FAB1BED003B5B77 /* Frameworks */,
+				06786C181FAB1BED003B5B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionStreamDemo;
+			productName = UnionStreamDemo;
+			productReference = 06786C1A1FAB1BED003B5B77 /* UnionStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06786C121FAB1BED003B5B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = pengbin;
+				TargetAttributes = {
+					06786C191FAB1BED003B5B77 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 06786C151FAB1BED003B5B77 /* Build configuration list for PBXProject "UnionStreamDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06786C111FAB1BED003B5B77;
+			productRefGroup = 06786C1B1FAB1BED003B5B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06786C191FAB1BED003B5B77 /* UnionStreamDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06786C181FAB1BED003B5B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06786C2A1FAB1BEE003B5B77 /* LaunchScreen.storyboard in Resources */,
+				06786C271FAB1BEE003B5B77 /* Assets.xcassets in Resources */,
+				06786C251FAB1BEE003B5B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06786C161FAB1BED003B5B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B1CEC51FB33B620025A0A8 /* UnionSettingVC.m in Sources */,
+				06786C2D1FAB1BEE003B5B77 /* main.m in Sources */,
+				585C9C3D1FB055310099302E /* UnionNameSlider.m in Sources */,
+				585C9C3F1FB055310099302E /* UnionUIView.m in Sources */,
+				06B1CED21FB439110025A0A8 /* UnionStreamKit.m in Sources */,
+				585C9C3B1FB055310099302E /* UnionDrawingView.m in Sources */,
+				585C9C3C1FB055310099302E /* UnionFileSelector.m in Sources */,
+				585C9C3E1FB055310099302E /* UnionUIVC.m in Sources */,
+				06786C1F1FAB1BED003B5B77 /* AppDelegate.m in Sources */,
+				06786C451FAB442C003B5B77 /* UnionStreamVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06786C231FAB1BEE003B5B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06786C241FAB1BEE003B5B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06786C281FAB1BEE003B5B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06786C291FAB1BEE003B5B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06786C2E1FAB1BEE003B5B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06786C2F1FAB1BEE003B5B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06786C311FAB1BEE003B5B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				INFOPLIST_FILE = UnionStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.UnionStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06786C321FAB1BEE003B5B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				INFOPLIST_FILE = UnionStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.UnionStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06786C151FAB1BED003B5B77 /* Build configuration list for PBXProject "UnionStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06786C2E1FAB1BEE003B5B77 /* Debug */,
+				06786C2F1FAB1BEE003B5B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06786C301FAB1BEE003B5B77 /* Build configuration list for PBXNativeTarget "UnionStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06786C311FAB1BEE003B5B77 /* Debug */,
+				06786C321FAB1BEE003B5B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06786C121FAB1BED003B5B77 /* Project object */;
+}

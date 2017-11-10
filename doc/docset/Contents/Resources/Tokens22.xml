@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionBWEstimateEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionBWEstimateEvent</TokenIdentifier>
+			<Abstract type="html">网络自适应事件</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateEvent_None</TokenIdentifier>
+            <Abstract type="html">未知事件</Abstract>
+            <Declaration>UnionBWEstimateEvent_None</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateEvent_SendSlow</TokenIdentifier>
+            <Abstract type="html">数据包发送较慢</Abstract>
+            <Declaration>UnionBWEstimateEvent_SendSlow</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateEvent_BWRaise</TokenIdentifier>
+            <Abstract type="html">视频码率上调</Abstract>
+            <Declaration>UnionBWEstimateEvent_BWRaise</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateEvent_BWDrop</TokenIdentifier>
+            <Abstract type="html">视频码率下调</Abstract>
+            <Declaration>UnionBWEstimateEvent_BWDrop</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

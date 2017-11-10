@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionVt264Encoder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionVt264Encoder</TokenIdentifier>
+			<Abstract type="html">videotoolbox视频编码器 H.264</Abstract>
+			<DeclaredIn>UnionVT264Encoder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionVt264Encoder/processSampleBuffer:onComplete:</TokenIdentifier>
+			<Abstract type="html">编码数据输入函数</Abstract>
+			<DeclaredIn>UnionVT264Encoder.h</DeclaredIn>
+			
+			<Declaration>- (void)processSampleBuffer:(CMSampleBufferRef)frame onComplete:(void ( ^ ) ( BOOL ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">送入的数据</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">完成回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processSampleBuffer:onComplete:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionVt264Encoder/processPixelBuffer:timeInfo:onComplete:</TokenIdentifier>
+			<Abstract type="html">编码数据输入函数</Abstract>
+			<DeclaredIn>UnionVT264Encoder.h</DeclaredIn>
+			
+			<Declaration>- (void)processPixelBuffer:(CVPixelBufferRef)frame timeInfo:(CMTime)time onComplete:(void ( ^ ) ( BOOL ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">送入的数据</Abstract>
+				</Parameter><Parameter>
+					<Name>time</Name>
+					<Abstract type="html">时间戳</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">完成回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processPixelBuffer:timeInfo:onComplete:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

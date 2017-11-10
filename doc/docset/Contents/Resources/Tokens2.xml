@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionAUAudioCapture.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionAUAudioCapture</TokenIdentifier>
+			<Abstract type="html">音频采集模块</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/initWithSampleRate:</TokenIdentifier>
+			<Abstract type="html">指定采集音频的采样率</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSampleRate:(double)sampleRate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleRate</Name>
+					<Abstract type="html">指定的采样率 , 默认为44100Hz</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">采集设备实例</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithSampleRate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/startCapture</TokenIdentifier>
+			<Abstract type="html">启动音频采集, 占据麦克风资源</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)startCapture</Declaration>
+			
+			<ReturnValue><Abstract type="html">是否启动采集成功</Abstract></ReturnValue>
+			<Anchor>//api/name/startCapture</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/stopCapture</TokenIdentifier>
+			<Abstract type="html">停止音频采集, 释放麦克风资源</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)stopCapture</Declaration>
+			
+			
+			<Anchor>//api/name/stopCapture</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/pauseCapture</TokenIdentifier>
+			<Abstract type="html">暂停音频采集(仍然占用麦克风资源) 停止回调音频数据</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)pauseCapture</Declaration>
+			
+			
+			<Anchor>//api/name/pauseCapture</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/pauseWithMuteData</TokenIdentifier>
+			<Abstract type="html">暂停音频采集(仍然占用麦克风资源), 回调静音音频数据</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)pauseWithMuteData</Declaration>
+			
+			
+			<Anchor>//api/name/pauseWithMuteData</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/resumeCapture</TokenIdentifier>
+			<Abstract type="html">恢复正常音频采集和回调</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)resumeCapture</Declaration>
+			
+			
+			<Anchor>//api/name/resumeCapture</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setBPlayCapturedAudio:</TokenIdentifier>
+			<Abstract type="html">是否播放采集的声音 (又称&quot;耳返&quot;)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bPlayCapturedAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bPlayCapturedAudio</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/bPlayCapturedAudio</TokenIdentifier>
+			<Abstract type="html">是否播放采集的声音 (又称&quot;耳返&quot;)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bPlayCapturedAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bPlayCapturedAudio</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/bPlayCapturedAudio</TokenIdentifier>
+			<Abstract type="html">是否播放采集的声音 (又称&quot;耳返&quot;)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bPlayCapturedAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bPlayCapturedAudio</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setEnableVoiceProcess:</TokenIdentifier>
+			<Abstract type="html">是否使用带回声消除的采集模块(默认为NO)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enableVoiceProcess</Declaration>
+			
+			
+			<Anchor>//api/name/enableVoiceProcess</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/enableVoiceProcess</TokenIdentifier>
+			<Abstract type="html">是否使用带回声消除的采集模块(默认为NO)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enableVoiceProcess</Declaration>
+			
+			
+			<Anchor>//api/name/enableVoiceProcess</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/enableVoiceProcess</TokenIdentifier>
+			<Abstract type="html">是否使用带回声消除的采集模块(默认为NO)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enableVoiceProcess</Declaration>
+			
+			
+			<Anchor>//api/name/enableVoiceProcess</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setBForceAudioSessionCatogary:</TokenIdentifier>
+			<Abstract type="html">是否强制设置AVAudioSession的类别为PlayAndRecord(默认为YES)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bForceAudioSessionCatogary</Declaration>
+			
+			
+			<Anchor>//api/name/bForceAudioSessionCatogary</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/bForceAudioSessionCatogary</TokenIdentifier>
+			<Abstract type="html">是否强制设置AVAudioSession的类别为PlayAndRecord(默认为YES)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bForceAudioSessionCatogary</Declaration>
+			
+			
+			<Anchor>//api/name/bForceAudioSessionCatogary</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/bForceAudioSessionCatogary</TokenIdentifier>
+			<Abstract type="html">是否强制设置AVAudioSession的类别为PlayAndRecord(默认为YES)</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bForceAudioSessionCatogary</Declaration>
+			
+			
+			<Anchor>//api/name/bForceAudioSessionCatogary</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setMicVolume:</TokenIdentifier>
+			<Abstract type="html">设置mic采集的声音音量</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float32 micVolume</Declaration>
+			
+			
+			<Anchor>//api/name/micVolume</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/micVolume</TokenIdentifier>
+			<Abstract type="html">设置mic采集的声音音量</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float32 micVolume</Declaration>
+			
+			
+			<Anchor>//api/name/micVolume</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/micVolume</TokenIdentifier>
+			<Abstract type="html">设置mic采集的声音音量</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float32 micVolume</Declaration>
+			
+			
+			<Anchor>//api/name/micVolume</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setOutputPts:</TokenIdentifier>
+			<Abstract type="html">最近一次输出的音频包的时间戳</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime outputPts</Declaration>
+			
+			
+			<Anchor>//api/name/outputPts</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/outputPts</TokenIdentifier>
+			<Abstract type="html">最近一次输出的音频包的时间戳</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime outputPts</Declaration>
+			
+			
+			<Anchor>//api/name/outputPts</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/outputPts</TokenIdentifier>
+			<Abstract type="html">最近一次输出的音频包的时间戳</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CMTime outputPts</Declaration>
+			
+			
+			<Anchor>//api/name/outputPts</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setReverbType:</TokenIdentifier>
+			<Abstract type="html">混响类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int reverbType</Declaration>
+			
+			
+			<Anchor>//api/name/reverbType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/reverbType</TokenIdentifier>
+			<Abstract type="html">混响类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int reverbType</Declaration>
+			
+			
+			<Anchor>//api/name/reverbType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/reverbType</TokenIdentifier>
+			<Abstract type="html">混响类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int reverbType</Declaration>
+			
+			
+			<Anchor>//api/name/reverbType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setEffectType:</TokenIdentifier>
+			<Abstract type="html">音效类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionAudioEffectType effectType</Declaration>
+			
+			
+			<Anchor>//api/name/effectType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/effectType</TokenIdentifier>
+			<Abstract type="html">音效类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionAudioEffectType effectType</Declaration>
+			
+			
+			<Anchor>//api/name/effectType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/effectType</TokenIdentifier>
+			<Abstract type="html">音效类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionAudioEffectType effectType</Declaration>
+			
+			
+			<Anchor>//api/name/effectType</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setAudioProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setPcmProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/pcmProcessingCallback</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/pcmProcessingCallback</TokenIdentifier>
+			<Abstract type="html">采集数据输出回调函数</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setCustomPlayCallback:</TokenIdentifier>
+			<Abstract type="html">用户可以自定义播放的内容，直接把数据填入ioData</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( AudioBufferList *ioData , UInt32 inumber ) customPlayCallback</Declaration>
+			
+			
+			<Anchor>//api/name/customPlayCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/customPlayCallback</TokenIdentifier>
+			<Abstract type="html">用户可以自定义播放的内容，直接把数据填入ioData</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( AudioBufferList *ioData , UInt32 inumber ) customPlayCallback</Declaration>
+			
+			
+			<Anchor>//api/name/customPlayCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/customPlayCallback</TokenIdentifier>
+			<Abstract type="html">用户可以自定义播放的内容，直接把数据填入ioData</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( AudioBufferList *ioData , UInt32 inumber ) customPlayCallback</Declaration>
+			
+			
+			<Anchor>//api/name/customPlayCallback</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UnionAUAudioCapture/isHeadsetPluggedIn</TokenIdentifier>
+			<Abstract type="html">是否有耳机麦克风可用</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isHeadsetPluggedIn</Declaration>
+			
+			<ReturnValue><Abstract type="html">是/否有耳机麦克风</Abstract></ReturnValue>
+			<Anchor>//api/name/isHeadsetPluggedIn</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/setIsRunning:</TokenIdentifier>
+			<Abstract type="html">设备是否正在采集音频数据</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAUAudioCapture/isRunning</TokenIdentifier>
+			<Abstract type="html">设备是否正在采集音频数据</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAUAudioCapture/isRunning</TokenIdentifier>
+			<Abstract type="html">设备是否正在采集音频数据</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionGPUView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionGPUView</TokenIdentifier>
+			<Abstract type="html">UIView subclass to use as an endpoint for displaying GPUImage outputs</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/setFillMode:</TokenIdentifier>
+			<Abstract type="html">画面填充模式, 默认值为kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/fillMode</TokenIdentifier>
+			<Abstract type="html">画面填充模式, 默认值为kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUView/fillMode</TokenIdentifier>
+			<Abstract type="html">画面填充模式, 默认值为kGPUImageFillModePreserveAspectRatio</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) GPUImageFillModeType fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/setSizeInPixels:</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/sizeInPixels</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUView/sizeInPixels</TokenIdentifier>
+			<Abstract type="html">This calculates the current display size, in pixels, taking into account Retina scaling factors</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGSize sizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixels</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/setEnabled:</TokenIdentifier>
+			<Abstract type="html">GPUImageInput 启用</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/enabled</TokenIdentifier>
+			<Abstract type="html">GPUImageInput 启用</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUView/enabled</TokenIdentifier>
+			<Abstract type="html">GPUImageInput 启用</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/setBackgroundColorRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html">Handling fill mode</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackgroundColorRed:(GLfloat)redComponent green:(GLfloat)greenComponent blue:(GLfloat)blueComponent alpha:(GLfloat)alphaComponent</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>redComponent</Name>
+					<Abstract type="html">Red component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>greenComponent</Name>
+					<Abstract type="html">Green component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>blueComponent</Name>
+					<Abstract type="html">Blue component for background color</Abstract>
+				</Parameter><Parameter>
+					<Name>alphaComponent</Name>
+					<Abstract type="html">Alpha component for background color</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBackgroundColorRed:green:blue:alpha:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUView/setCurrentlyReceivingMonochromeInput:</TokenIdentifier>
+			<Abstract type="html">是否接收单通道输入</Abstract>
+			<DeclaredIn>UnionGPUView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCurrentlyReceivingMonochromeInput:(BOOL)newValue</Declaration>
+			
+			
+			<Anchor>//api/name/setCurrentlyReceivingMonochromeInput:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

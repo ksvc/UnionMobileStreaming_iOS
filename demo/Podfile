@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+
+clib_path=ENV['CLIB_PATH']
+clib_path='../../UnionMobileStreaming' if clib_path.blank?
+
+target 'UnionStreamDemo' do
+  pod 'UnionMobileStreaming',   :path => '../'
+  pod 'UnionOpenSource',        :path => '../example'
+end

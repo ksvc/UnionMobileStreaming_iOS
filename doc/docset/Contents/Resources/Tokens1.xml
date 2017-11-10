@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionATAACEncoder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionATAACEncoder</TokenIdentifier>
+			<Abstract type="html">audiotoolbox音频频编码器 AAC
+不支持码率调整</Abstract>
+			<DeclaredIn>UnionATAACEncoder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

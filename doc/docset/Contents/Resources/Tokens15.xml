@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionStreamKit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionStreamKit</TokenIdentifier>
+			<Abstract type="html">Union 直播推流工具类</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/init</TokenIdentifier>
+			<Abstract type="html">初始化方法</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/initWithPreset:</TokenIdentifier>
+			<Abstract type="html">初始化方法</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initWithPreset:(UnionPreset)preset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>preset</Name>
+					<Abstract type="html">预定义参数</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">创建的实例</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPreset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/initInterrupt:andPreset:</TokenIdentifier>
+			<Abstract type="html">初始化方法</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (instancetype _Nullable)initInterrupt:(BOOL)bInter andPreset:(UnionPreset)preset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bInter</Name>
+					<Abstract type="html">是否打断其他APP</Abstract>
+				</Parameter><Parameter>
+					<Name>preset</Name>
+					<Abstract type="html">预配置参数</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">创建的实例</Abstract></ReturnValue>
+			<Anchor>//api/name/initInterrupt:andPreset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPreset:</TokenIdentifier>
+			<Abstract type="html">采集和推流配置参数</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPreset preset</Declaration>
+			
+			
+			<Anchor>//api/name/preset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/preset</TokenIdentifier>
+			<Abstract type="html">采集和推流配置参数</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPreset preset</Declaration>
+			
+			
+			<Anchor>//api/name/preset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/preset</TokenIdentifier>
+			<Abstract type="html">采集和推流配置参数</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPreset preset</Declaration>
+			
+			
+			<Anchor>//api/name/preset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/getUnionVersion</TokenIdentifier>
+			<Abstract type="html">获取SDK版本号</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (NSString *_Nonnull)getUnionVersion</Declaration>
+			
+			
+			<Anchor>//api/name/getUnionVersion</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVCapDev:</TokenIdentifier>
+			<Abstract type="html">视频采集设备</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAVFCapture *vCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/vCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/vCapDev</TokenIdentifier>
+			<Abstract type="html">视频采集设备</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAVFCapture *vCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/vCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/vCapDev</TokenIdentifier>
+			<Abstract type="html">视频采集设备</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAVFCapture *vCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/vCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setFilter:</TokenIdentifier>
+			<Abstract type="html">获取当前使用的滤镜</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GPUImageOutput&lt;GPUImageInput&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/filter</TokenIdentifier>
+			<Abstract type="html">获取当前使用的滤镜</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GPUImageOutput&lt;GPUImageInput&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/filter</TokenIdentifier>
+			<Abstract type="html">获取当前使用的滤镜</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GPUImageOutput&lt;GPUImageInput&gt; *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVPreviewMixer:</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 预览</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vPreviewMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vPreviewMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/vPreviewMixer</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 预览</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vPreviewMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vPreviewMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/vPreviewMixer</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 预览</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vPreviewMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vPreviewMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVStreamMixer:</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 推流</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vStreamMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vStreamMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/vStreamMixer</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 推流</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vStreamMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vStreamMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/vStreamMixer</TokenIdentifier>
+			<Abstract type="html">图像混合器 for 推流</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicMixer *vStreamMixer</Declaration>
+			
+			
+			<Anchor>//api/name/vStreamMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPreview:</TokenIdentifier>
+			<Abstract type="html">预览视图</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUView *preview</Declaration>
+			
+			
+			<Anchor>//api/name/preview</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/preview</TokenIdentifier>
+			<Abstract type="html">预览视图</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUView *preview</Declaration>
+			
+			
+			<Anchor>//api/name/preview</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/preview</TokenIdentifier>
+			<Abstract type="html">预览视图</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUView *preview</Declaration>
+			
+			
+			<Anchor>//api/name/preview</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCapToGpu:</TokenIdentifier>
+			<Abstract type="html">采集到的图像上传GPU</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicInput *capToGpu</Declaration>
+			
+			
+			<Anchor>//api/name/capToGpu</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/capToGpu</TokenIdentifier>
+			<Abstract type="html">采集到的图像上传GPU</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicInput *capToGpu</Declaration>
+			
+			
+			<Anchor>//api/name/capToGpu</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/capToGpu</TokenIdentifier>
+			<Abstract type="html">采集到的图像上传GPU</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicInput *capToGpu</Declaration>
+			
+			
+			<Anchor>//api/name/capToGpu</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setGpuToStr:</TokenIdentifier>
+			<Abstract type="html">获取渲染的图像</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicOutput *gpuToStr</Declaration>
+			
+			
+			<Anchor>//api/name/gpuToStr</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/gpuToStr</TokenIdentifier>
+			<Abstract type="html">获取渲染的图像</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicOutput *gpuToStr</Declaration>
+			
+			
+			<Anchor>//api/name/gpuToStr</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/gpuToStr</TokenIdentifier>
+			<Abstract type="html">获取渲染的图像</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionGPUPicOutput *gpuToStr</Declaration>
+			
+			
+			<Anchor>//api/name/gpuToStr</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setACapDev:</TokenIdentifier>
+			<Abstract type="html">音频采集设备 Audio Unit 音频采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAUAudioCapture *aCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/aCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/aCapDev</TokenIdentifier>
+			<Abstract type="html">音频采集设备 Audio Unit 音频采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAUAudioCapture *aCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/aCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/aCapDev</TokenIdentifier>
+			<Abstract type="html">音频采集设备 Audio Unit 音频采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAUAudioCapture *aCapDev</Declaration>
+			
+			
+			<Anchor>//api/name/aCapDev</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setAMixer:</TokenIdentifier>
+			<Abstract type="html">音频混合器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAudioMixer *aMixer</Declaration>
+			
+			
+			<Anchor>//api/name/aMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/aMixer</TokenIdentifier>
+			<Abstract type="html">音频混合器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAudioMixer *aMixer</Declaration>
+			
+			
+			<Anchor>//api/name/aMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/aMixer</TokenIdentifier>
+			<Abstract type="html">音频混合器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAudioMixer *aMixer</Declaration>
+			
+			
+			<Anchor>//api/name/aMixer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVEncoder:</TokenIdentifier>
+			<Abstract type="html">视频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull vEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/vEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/vEncoder</TokenIdentifier>
+			<Abstract type="html">视频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull vEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/vEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/vEncoder</TokenIdentifier>
+			<Abstract type="html">视频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull vEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/vEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setAEncoder:</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull aEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/aEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/aEncoder</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull aEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/aEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/aEncoder</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull aEncoder</Declaration>
+			
+			
+			<Anchor>//api/name/aEncoder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setAvAdaptor:</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAdaptor *avAdaptor</Declaration>
+			
+			
+			<Anchor>//api/name/avAdaptor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/avAdaptor</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAdaptor *avAdaptor</Declaration>
+			
+			
+			<Anchor>//api/name/avAdaptor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/avAdaptor</TokenIdentifier>
+			<Abstract type="html">音频编码器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionAdaptor *avAdaptor</Declaration>
+			
+			
+			<Anchor>//api/name/avAdaptor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPublisher:</TokenIdentifier>
+			<Abstract type="html">rtmp 推流器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionPublisher&gt; _Nonnull publisher</Declaration>
+			
+			
+			<Anchor>//api/name/publisher</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/publisher</TokenIdentifier>
+			<Abstract type="html">rtmp 推流器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionPublisher&gt; _Nonnull publisher</Declaration>
+			
+			
+			<Anchor>//api/name/publisher</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/publisher</TokenIdentifier>
+			<Abstract type="html">rtmp 推流器</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UnionPublisher&gt; _Nonnull publisher</Declaration>
+			
+			
+			<Anchor>//api/name/publisher</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCameraLayer:</TokenIdentifier>
+			<Abstract type="html">摄像头图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger cameraLayer</Declaration>
+			
+			
+			<Anchor>//api/name/cameraLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/cameraLayer</TokenIdentifier>
+			<Abstract type="html">摄像头图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger cameraLayer</Declaration>
+			
+			
+			<Anchor>//api/name/cameraLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/cameraLayer</TokenIdentifier>
+			<Abstract type="html">摄像头图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger cameraLayer</Declaration>
+			
+			
+			<Anchor>//api/name/cameraLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoPicLayer:</TokenIdentifier>
+			<Abstract type="html">logo 图片的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoPicLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoPicLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/logoPicLayer</TokenIdentifier>
+			<Abstract type="html">logo 图片的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoPicLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoPicLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/logoPicLayer</TokenIdentifier>
+			<Abstract type="html">logo 图片的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoPicLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoPicLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoTxtLayer:</TokenIdentifier>
+			<Abstract type="html">logo 文字的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoTxtLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoTxtLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/logoTxtLayer</TokenIdentifier>
+			<Abstract type="html">logo 文字的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoTxtLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoTxtLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/logoTxtLayer</TokenIdentifier>
+			<Abstract type="html">logo 文字的图层</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger logoTxtLayer</Declaration>
+			
+			
+			<Anchor>//api/name/logoTxtLayer</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setMicTrack:</TokenIdentifier>
+			<Abstract type="html">麦克风通道</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int micTrack</Declaration>
+			
+			
+			<Anchor>//api/name/micTrack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/micTrack</TokenIdentifier>
+			<Abstract type="html">麦克风通道</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int micTrack</Declaration>
+			
+			
+			<Anchor>//api/name/micTrack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/micTrack</TokenIdentifier>
+			<Abstract type="html">麦克风通道</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int micTrack</Declaration>
+			
+			
+			<Anchor>//api/name/micTrack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCaptureState:</TokenIdentifier>
+			<Abstract type="html">当前采集设备状况</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionCaptureState captureState</Declaration>
+			
+			
+			<Anchor>//api/name/captureState</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/captureState</TokenIdentifier>
+			<Abstract type="html">当前采集设备状况</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionCaptureState captureState</Declaration>
+			
+			
+			<Anchor>//api/name/captureState</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/captureState</TokenIdentifier>
+			<Abstract type="html">当前采集设备状况</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionCaptureState captureState</Declaration>
+			
+			
+			<Anchor>//api/name/captureState</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/getCaptureStateName:</TokenIdentifier>
+			<Abstract type="html">获取采集状态对应的字符串</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (NSString *_Nonnull)getCaptureStateName:(UnionCaptureState)stat</Declaration>
+			
+			
+			<Anchor>//api/name/getCaptureStateName:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/getCurCaptureStateName</TokenIdentifier>
+			<Abstract type="html">获取当前采集状态对应的字符串</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (NSString *_Nonnull)getCurCaptureStateName</Declaration>
+			
+			
+			<Anchor>//api/name/getCurCaptureStateName</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/startPreview:</TokenIdentifier>
+			<Abstract type="html">启动预览</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/videoFPS</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startPreview:(UIView *_Nonnull)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">预览画面作为subview，插入到 view 的最底层</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startPreview:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/startVideoCap</TokenIdentifier>
+			<Abstract type="html">开启视频配置和采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)startVideoCap</Declaration>
+			
+			
+			<Anchor>//api/name/startVideoCap</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/startAudioCap</TokenIdentifier>
+			<Abstract type="html">开始音频配置和采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)startAudioCap</Declaration>
+			
+			
+			<Anchor>//api/name/startAudioCap</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/stopPreview</TokenIdentifier>
+			<Abstract type="html">停止预览，停止采集设备，并清理会话</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/stopStream</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)stopPreview</Declaration>
+			
+			
+			<Anchor>//api/name/stopPreview</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/startStream:</TokenIdentifier>
+			<Abstract type="html">开始推流</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)startStream:(NSURL *__nonnull)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">推流地址</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startStream:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/stopStream</TokenIdentifier>
+			<Abstract type="html">停止推流</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)stopStream</Declaration>
+			
+			
+			<Anchor>//api/name/stopStream</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/appEnterBackground</TokenIdentifier>
+			<Abstract type="html">进入后台: 暂停图像采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)appEnterBackground</Declaration>
+			
+			
+			<Anchor>//api/name/appEnterBackground</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/appBecomeActive</TokenIdentifier>
+			<Abstract type="html">回到前台: 恢复采集</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)appBecomeActive</Declaration>
+			
+			
+			<Anchor>//api/name/appBecomeActive</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCapPreset:</TokenIdentifier>
+			<Abstract type="html">采集分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSString *capPreset</Declaration>
+			
+			
+			<Anchor>//api/name/capPreset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/capPreset</TokenIdentifier>
+			<Abstract type="html">采集分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSString *capPreset</Declaration>
+			
+			
+			<Anchor>//api/name/capPreset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/capPreset</TokenIdentifier>
+			<Abstract type="html">采集分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSString *capPreset</Declaration>
+			
+			
+			<Anchor>//api/name/capPreset</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/captureDimension</TokenIdentifier>
+			<Abstract type="html">查询实际的采集分辨率</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)captureDimension</Declaration>
+			
+			
+			<Anchor>//api/name/captureDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPreviewDimension:</TokenIdentifier>
+			<Abstract type="html">预览分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize previewDimension</Declaration>
+			
+			
+			<Anchor>//api/name/previewDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/previewDimension</TokenIdentifier>
+			<Abstract type="html">预览分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize previewDimension</Declaration>
+			
+			
+			<Anchor>//api/name/previewDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewDimension</TokenIdentifier>
+			<Abstract type="html">预览分辨率 (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize previewDimension</Declaration>
+			
+			
+			<Anchor>//api/name/previewDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setStreamDimension:</TokenIdentifier>
+			<Abstract type="html">用户定义的视频 推流 分辨率</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewDimension</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize streamDimension</Declaration>
+			
+			
+			<Anchor>//api/name/streamDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/streamDimension</TokenIdentifier>
+			<Abstract type="html">用户定义的视频 推流 分辨率</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewDimension</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize streamDimension</Declaration>
+			
+			
+			<Anchor>//api/name/streamDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/streamDimension</TokenIdentifier>
+			<Abstract type="html">用户定义的视频 推流 分辨率</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewDimension</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize streamDimension</Declaration>
+			
+			
+			<Anchor>//api/name/streamDimension</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCapturePixelFormat:</TokenIdentifier>
+			<Abstract type="html">采集模块输出的像素格式 (默认:kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType capturePixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/capturePixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/capturePixelFormat</TokenIdentifier>
+			<Abstract type="html">采集模块输出的像素格式 (默认:kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType capturePixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/capturePixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/capturePixelFormat</TokenIdentifier>
+			<Abstract type="html">采集模块输出的像素格式 (默认:kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType capturePixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/capturePixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setGpuOutputPixelFormat:</TokenIdentifier>
+			<Abstract type="html">gpu output pixel format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType gpuOutputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/gpuOutputPixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/gpuOutputPixelFormat</TokenIdentifier>
+			<Abstract type="html">gpu output pixel format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType gpuOutputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/gpuOutputPixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/gpuOutputPixelFormat</TokenIdentifier>
+			<Abstract type="html">gpu output pixel format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) OSType gpuOutputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/gpuOutputPixelFormat</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVideoFPS:</TokenIdentifier>
+			<Abstract type="html">采集及编码视频帧率 (开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int videoFPS</Declaration>
+			
+			
+			<Anchor>//api/name/videoFPS</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/videoFPS</TokenIdentifier>
+			<Abstract type="html">采集及编码视频帧率 (开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int videoFPS</Declaration>
+			
+			
+			<Anchor>//api/name/videoFPS</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/videoFPS</TokenIdentifier>
+			<Abstract type="html">采集及编码视频帧率 (开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int videoFPS</Declaration>
+			
+			
+			<Anchor>//api/name/videoFPS</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setCameraPosition:</TokenIdentifier>
+			<Abstract type="html">摄像头位置  (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AVCaptureDevicePosition cameraPosition</Declaration>
+			
+			
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/cameraPosition</TokenIdentifier>
+			<Abstract type="html">摄像头位置  (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AVCaptureDevicePosition cameraPosition</Declaration>
+			
+			
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/cameraPosition</TokenIdentifier>
+			<Abstract type="html">摄像头位置  (仅在开始采集前设置有效)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AVCaptureDevicePosition cameraPosition</Declaration>
+			
+			
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVideoOrientation:</TokenIdentifier>
+			<Abstract type="html">摄像头朝向, 只在启动采集前设置有效</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) UIInterfaceOrientation videoOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/videoOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/videoOrientation</TokenIdentifier>
+			<Abstract type="html">摄像头朝向, 只在启动采集前设置有效</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) UIInterfaceOrientation videoOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/videoOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/videoOrientation</TokenIdentifier>
+			<Abstract type="html">摄像头朝向, 只在启动采集前设置有效</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) UIInterfaceOrientation videoOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/videoOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/switchCamera</TokenIdentifier>
+			<Abstract type="html">切换摄像头</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/cameraPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BOOL)switchCamera</Declaration>
+			
+			<ReturnValue><Abstract type="html">TRUE: 成功切换摄像头， FALSE：当前参数，下一个摄像头不支持，切换失败</Abstract></ReturnValue>
+			<Anchor>//api/name/switchCamera</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/isTorchSupported</TokenIdentifier>
+			<Abstract type="html">当前采集设备是否支持闪光灯</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isTorchSupported</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES / NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isTorchSupported</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/toggleTorch</TokenIdentifier>
+			<Abstract type="html">开关闪光灯</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)toggleTorch</Declaration>
+			
+			
+			<Anchor>//api/name/toggleTorch</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setTorchMode:</TokenIdentifier>
+			<Abstract type="html">设置闪光灯</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)setTorchMode:(AVCaptureTorchMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">AVCaptureTorchModeOn/Off</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTorchMode:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/getCurrentCameraDevices</TokenIdentifier>
+			<Abstract type="html">获取当前采集设备的指针</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureDevice *_Nonnull)getCurrentCameraDevices</Declaration>
+			
+			<ReturnValue><Abstract type="html">AVCaptureDevice* 预览开始前调用返回为nil，开始预览后，返回当前正在使用的摄像头</Abstract></ReturnValue>
+			<Anchor>//api/name/getCurrentCameraDevices</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setVideoProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">原始采集到的视频数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">原始采集到的视频数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">原始采集到的视频数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setAudioProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPcmProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/pcmProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/pcmProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( uint8_t **pData , int len , const AudioStreamBasicDescription *fmt , CMTime timeInfo ) pcmProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/pcmProcessingCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setInterruptCallback:</TokenIdentifier>
+			<Abstract type="html">摄像头采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/interruptCallback</TokenIdentifier>
+			<Abstract type="html">摄像头采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/interruptCallback</TokenIdentifier>
+			<Abstract type="html">摄像头采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setupFilter:</TokenIdentifier>
+			<Abstract type="html">设置当前使用的滤镜</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)setupFilter:(GPUImageOutput&lt;GPUImageInput&gt; *_Nullable)filter</Declaration>
+			
+			
+			<Anchor>//api/name/setupFilter:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPreviewMirrored:</TokenIdentifier>
+			<Abstract type="html">预览设置成镜像模式，默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL previewMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/previewMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/previewMirrored</TokenIdentifier>
+			<Abstract type="html">预览设置成镜像模式，默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL previewMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/previewMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewMirrored</TokenIdentifier>
+			<Abstract type="html">预览设置成镜像模式，默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL previewMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/previewMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setStreamerMirrored:</TokenIdentifier>
+			<Abstract type="html">推流设置成镜像模式,默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/streamerMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/streamerMirrored</TokenIdentifier>
+			<Abstract type="html">推流设置成镜像模式,默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/streamerMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/streamerMirrored</TokenIdentifier>
+			<Abstract type="html">推流设置成镜像模式,默认为NO</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerMirrored</Declaration>
+			
+			
+			<Anchor>//api/name/streamerMirrored</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setStreamerFreezed:</TokenIdentifier>
+			<Abstract type="html">推流的画面是否冻结 (默认为NO)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerFreezed</Declaration>
+			
+			
+			<Anchor>//api/name/streamerFreezed</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/streamerFreezed</TokenIdentifier>
+			<Abstract type="html">推流的画面是否冻结 (默认为NO)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerFreezed</Declaration>
+			
+			
+			<Anchor>//api/name/streamerFreezed</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/streamerFreezed</TokenIdentifier>
+			<Abstract type="html">推流的画面是否冻结 (默认为NO)</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL streamerFreezed</Declaration>
+			
+			
+			<Anchor>//api/name/streamerFreezed</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPreviewOrientation:</TokenIdentifier>
+			<Abstract type="html">预览图像朝向, 如果UI能够旋转,需要保持和UI的朝向一致</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation previewOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/previewOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/previewOrientation</TokenIdentifier>
+			<Abstract type="html">预览图像朝向, 如果UI能够旋转,需要保持和UI的朝向一致</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation previewOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/previewOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/previewOrientation</TokenIdentifier>
+			<Abstract type="html">预览图像朝向, 如果UI能够旋转,需要保持和UI的朝向一致</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation previewOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/previewOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setStreamOrientation:</TokenIdentifier>
+			<Abstract type="html">推流图像朝向, 如果UI能够旋转, 可以跟随旋转,也可以不修改</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation streamOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/streamOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/streamOrientation</TokenIdentifier>
+			<Abstract type="html">推流图像朝向, 如果UI能够旋转, 可以跟随旋转,也可以不修改</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation streamOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/streamOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/streamOrientation</TokenIdentifier>
+			<Abstract type="html">推流图像朝向, 如果UI能够旋转, 可以跟随旋转,也可以不修改</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UIInterfaceOrientation streamOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/streamOrientation</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/rotatePreviewTo:</TokenIdentifier>
+			<Abstract type="html">根据UI的朝向旋转预览视图, 保证预览视图全屏铺满窗口</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)rotatePreviewTo:(UIInterfaceOrientation)orie</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>orie</Name>
+					<Abstract type="html">旋转到目标朝向, 需要从demo中获取UI的朝向传入</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotatePreviewTo:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/rotateStreamTo:</TokenIdentifier>
+			<Abstract type="html">根据UI的朝向旋转推流画面, 这个是可以选的,可以不跟随旋转</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateStreamTo:(UIInterfaceOrientation)orie</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>orie</Name>
+					<Abstract type="html">旋转到目标朝向, 需要从demo中获取UI的朝向传入</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateStreamTo:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoPic:</TokenIdentifier>
+			<Abstract type="html">水印logo的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *logoPic</Declaration>
+			
+			
+			<Anchor>//api/name/logoPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/logoPic</TokenIdentifier>
+			<Abstract type="html">水印logo的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *logoPic</Declaration>
+			
+			
+			<Anchor>//api/name/logoPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/logoPic</TokenIdentifier>
+			<Abstract type="html">水印logo的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *logoPic</Declaration>
+			
+			
+			<Anchor>//api/name/logoPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoOrientaion:</TokenIdentifier>
+			<Abstract type="html">设置水印图片的朝向</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)setLogoOrientaion:(UIImageOrientation)orien</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>orien</Name>
+					<Abstract type="html">图片的朝向</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLogoOrientaion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setTextPic:</TokenIdentifier>
+			<Abstract type="html">文字内容的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *textPic</Declaration>
+			
+			
+			<Anchor>//api/name/textPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/textPic</TokenIdentifier>
+			<Abstract type="html">文字内容的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *textPic</Declaration>
+			
+			
+			<Anchor>//api/name/textPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/textPic</TokenIdentifier>
+			<Abstract type="html">文字内容的图片</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) GPUImagePicture *textPic</Declaration>
+			
+			
+			<Anchor>//api/name/textPic</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoRect:</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect logoRect</Declaration>
+			
+			
+			<Anchor>//api/name/logoRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/logoRect</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect logoRect</Declaration>
+			
+			
+			<Anchor>//api/name/logoRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/logoRect</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect logoRect</Declaration>
+			
+			
+			<Anchor>//api/name/logoRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setLogoAlpha:</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat logoAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/logoAlpha</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/logoAlpha</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat logoAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/logoAlpha</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/logoAlpha</TokenIdentifier>
+			<Abstract type="html">水印logo的图片的位置</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat logoAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/logoAlpha</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setTextLabel:</TokenIdentifier>
+			<Abstract type="html">水印文字的label</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/updateTextLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readwrite) UILabel *textLabel</Declaration>
+			
+			
+			<Anchor>//api/name/textLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/textLabel</TokenIdentifier>
+			<Abstract type="html">水印文字的label</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/updateTextLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readwrite) UILabel *textLabel</Declaration>
+			
+			
+			<Anchor>//api/name/textLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/textLabel</TokenIdentifier>
+			<Abstract type="html">水印文字的label</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/updateTextLabel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readwrite) UILabel *textLabel</Declaration>
+			
+			
+			<Anchor>//api/name/textLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setTextRect:</TokenIdentifier>
+			<Abstract type="html">水印文字的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect textRect</Declaration>
+			
+			
+			<Anchor>//api/name/textRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/textRect</TokenIdentifier>
+			<Abstract type="html">水印文字的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect textRect</Declaration>
+			
+			
+			<Anchor>//api/name/textRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/textRect</TokenIdentifier>
+			<Abstract type="html">水印文字的图片的位置和大小</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect textRect</Declaration>
+			
+			
+			<Anchor>//api/name/textRect</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/updateTextLabel</TokenIdentifier>
+			<Abstract type="html">刷新水印文字的内容</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (void)updateTextLabel</Declaration>
+			
+			
+			<Anchor>//api/name/updateTextLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/focusAtPoint:</TokenIdentifier>
+			<Abstract type="html">当前采集设备是否支持自动变焦</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)focusAtPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">相机对焦的位置</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES / NO</Abstract></ReturnValue>
+			<Anchor>//api/name/focusAtPoint:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/exposureAtPoint:</TokenIdentifier>
+			<Abstract type="html">当前采集设备是否支持自动曝光</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)exposureAtPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">相机曝光的位置</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES / NO</Abstract></ReturnValue>
+			<Anchor>//api/name/exposureAtPoint:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/setPinchZoomFactor:</TokenIdentifier>
+			<Abstract type="html">触摸缩放因子</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat pinchZoomFactor</Declaration>
+			
+			
+			<Anchor>//api/name/pinchZoomFactor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionStreamKit/pinchZoomFactor</TokenIdentifier>
+			<Abstract type="html">触摸缩放因子</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat pinchZoomFactor</Declaration>
+			
+			
+			<Anchor>//api/name/pinchZoomFactor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionStreamKit/pinchZoomFactor</TokenIdentifier>
+			<Abstract type="html">触摸缩放因子</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat pinchZoomFactor</Declaration>
+			
+			
+			<Anchor>//api/name/pinchZoomFactor</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionPublisherState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionPublisherState</TokenIdentifier>
+			<Abstract type="html">发送端状态</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Idle</TokenIdentifier>
+            <Abstract type="html">初始化状态</Abstract>
+            <Declaration>UnionPublisherState_Idle</Declaration>
+            
+            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Started</TokenIdentifier>
+            <Abstract type="html">推流中</Abstract>
+            <Declaration>UnionPublisherState_Started</Declaration>
+            
+            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Stopped</TokenIdentifier>
+            <Abstract type="html">推流结束</Abstract>
+            <Declaration>UnionPublisherState_Stopped</Declaration>
+            
+            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Error</TokenIdentifier>
+            <Abstract type="html">推流错误</Abstract>
+            <Declaration>UnionPublisherState_Error</Declaration>
+            
+            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

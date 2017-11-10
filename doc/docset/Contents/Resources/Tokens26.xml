@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionPreset.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionPreset</TokenIdentifier>
+			<Abstract type="html">推流前profile类型</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_360p_auto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_360p_auto</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_360p_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_360p_1</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_360p_2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_360p_2</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_360p_3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_360p_3</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_540p_auto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_540p_auto</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_540p_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_540p_1</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_540p_2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_540p_2</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_540p_3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_540p_3</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_720p_auto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_720p_auto</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_720p_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_720p_1</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_720p_2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_720p_2</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionPreset_720p_3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>UnionPreset_720p_3</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

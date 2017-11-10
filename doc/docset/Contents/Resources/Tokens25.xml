@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionMicType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionMicType</TokenIdentifier>
+			<Abstract type="html">音频输入设备类型</Abstract>
+			<DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_builtinMic</TokenIdentifier>
+            <Abstract type="html">Built-in microphone on an iOS device</Abstract>
+            <Declaration>UnionMicType_builtinMic</Declaration>
+            
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_headsetMic</TokenIdentifier>
+            <Abstract type="html">Microphone on a wired headset</Abstract>
+            <Declaration>UnionMicType_headsetMic</Declaration>
+            
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_bluetoothMic</TokenIdentifier>
+            <Abstract type="html">蓝牙设备</Abstract>
+            <Declaration>UnionMicType_bluetoothMic</Declaration>
+            
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_unknow</TokenIdentifier>
+            <Abstract type="html">未知设备</Abstract>
+            <Declaration>UnionMicType_unknow</Declaration>
+            
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

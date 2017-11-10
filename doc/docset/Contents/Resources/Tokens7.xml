@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionEncoderBase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionEncoderBase</TokenIdentifier>
+			<Abstract type="html">音视频编码模块接口定义</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/initWithConfig:</TokenIdentifier>
+			<Abstract type="html">配置编码参数.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithConfig:(UnionEncoderCfg *)cfg</Declaration>
+			
+			
+			<Anchor>//api/name/initWithConfig:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/start</TokenIdentifier>
+			<Abstract type="html">开始编码.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/stop</TokenIdentifier>
+			<Abstract type="html">停止编码.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/flush</TokenIdentifier>
+			<Abstract type="html">flush当前编码器.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)flush</Declaration>
+			
+			
+			<Anchor>//api/name/flush</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/adjustBitrate:</TokenIdentifier>
+			<Abstract type="html">编码过程中动态设置目标码率</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)adjustBitrate:(int)bitrate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>bitrate</Name>
+					<Abstract type="html">新的目标码率</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adjustBitrate:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/requestKeyFrame</TokenIdentifier>
+			<Abstract type="html">请求关键帧</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)requestKeyFrame</Declaration>
+			
+			
+			<Anchor>//api/name/requestKeyFrame</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/processAVFrame:onComplete:</TokenIdentifier>
+			<Abstract type="html">编码数据输入函数</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)processAVFrame:(UnionAVFrame *)frame onComplete:(void ( ^ ) ( BOOL ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">送入的数据</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">完成回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/processAVFrame:onComplete:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/setEncodedPacketCallback:</TokenIdentifier>
+			<Abstract type="html">输出编码后的压缩数据</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) encodedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/encodedPacketCallback</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/encodedPacketCallback</TokenIdentifier>
+			<Abstract type="html">输出编码后的压缩数据</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) encodedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/encodedPacketCallback</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionEncoderBase/encodedPacketCallback</TokenIdentifier>
+			<Abstract type="html">输出编码后的压缩数据</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) encodedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/encodedPacketCallback</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/setEncoderCfg:</TokenIdentifier>
+			<Abstract type="html">当前的编码参数</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionEncoderCfg *encoderCfg</Declaration>
+			
+			
+			<Anchor>//api/name/encoderCfg</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/encoderCfg</TokenIdentifier>
+			<Abstract type="html">当前的编码参数</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionEncoderCfg *encoderCfg</Declaration>
+			
+			
+			<Anchor>//api/name/encoderCfg</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionEncoderBase/encoderCfg</TokenIdentifier>
+			<Abstract type="html">当前的编码参数</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionEncoderCfg *encoderCfg</Declaration>
+			
+			
+			<Anchor>//api/name/encoderCfg</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/setError:</TokenIdentifier>
+			<Abstract type="html">错误信息</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/error</TokenIdentifier>
+			<Abstract type="html">错误信息</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionEncoderBase/error</TokenIdentifier>
+			<Abstract type="html">错误信息</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/setFrameDropped:</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中丢掉的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameDropped</Declaration>
+			
+			
+			<Anchor>//api/name/frameDropped</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/frameDropped</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中丢掉的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameDropped</Declaration>
+			
+			
+			<Anchor>//api/name/frameDropped</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionEncoderBase/frameDropped</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中丢掉的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameDropped</Declaration>
+			
+			
+			<Anchor>//api/name/frameDropped</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/setFrameEncoded:</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中已编码的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameEncoded</Declaration>
+			
+			
+			<Anchor>//api/name/frameEncoded</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/frameEncoded</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中已编码的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameEncoded</Declaration>
+			
+			
+			<Anchor>//api/name/frameEncoded</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionEncoderBase/frameEncoded</TokenIdentifier>
+			<Abstract type="html">获取当次编码过程中已编码的frame数量.</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int frameEncoded</Declaration>
+			
+			
+			<Anchor>//api/name/frameEncoded</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionEncoderBase/newError:info:</TokenIdentifier>
+			<Abstract type="html">新建错误</Abstract>
+			<DeclaredIn>UnionEncoderBase.h</DeclaredIn>
+			
+			<Declaration>- (void)newError:(NSInteger)code info:(NSString *)info</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">错误码</Abstract>
+				</Parameter><Parameter>
+					<Name>info</Name>
+					<Abstract type="html">错误信息</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/newError:info:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

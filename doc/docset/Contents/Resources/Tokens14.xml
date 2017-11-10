@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionLibrtmpPublisher.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionLibrtmpPublisher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UnionLibrtmpPublisher.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

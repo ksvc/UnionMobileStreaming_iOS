@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionGPUPicOutput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionGPUPicOutput</TokenIdentifier>
+			<Abstract type="html">GPU图像输出</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/init</TokenIdentifier>
+			<Abstract type="html">初始化方法</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/initWithOutFmt:</TokenIdentifier>
+			<Abstract type="html">指定输出格式的初始化</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/outputPixelFormat</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithOutFmt:(OSType)fmt</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fmt</Name>
+					<Abstract type="html">输出格式</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithOutFmt:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setOutputPixelFormat:</TokenIdentifier>
+			<Abstract type="html">output format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OSType outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/outputPixelFormat</TokenIdentifier>
+			<Abstract type="html">output format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OSType outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/outputPixelFormat</TokenIdentifier>
+			<Abstract type="html">output format (默认:kCVPixelFormatType_32BGRA)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OSType outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setEnabled:</TokenIdentifier>
+			<Abstract type="html">GPUImageInput - (BOOL)enabled;</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/enabled</TokenIdentifier>
+			<Abstract type="html">GPUImageInput - (BOOL)enabled;</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/enabled</TokenIdentifier>
+			<Abstract type="html">GPUImageInput - (BOOL)enabled;</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setBCustomOutputSize:</TokenIdentifier>
+			<Abstract type="html">是否使用自定义输出尺寸 (默认为NO)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bCustomOutputSize</Declaration>
+			
+			
+			<Anchor>//api/name/bCustomOutputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/bCustomOutputSize</TokenIdentifier>
+			<Abstract type="html">是否使用自定义输出尺寸 (默认为NO)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bCustomOutputSize</Declaration>
+			
+			
+			<Anchor>//api/name/bCustomOutputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/bCustomOutputSize</TokenIdentifier>
+			<Abstract type="html">是否使用自定义输出尺寸 (默认为NO)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bCustomOutputSize</Declaration>
+			
+			
+			<Anchor>//api/name/bCustomOutputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setOutputSize:</TokenIdentifier>
+			<Abstract type="html">output picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/bCustomOutputSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize outputSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/outputSize</TokenIdentifier>
+			<Abstract type="html">output picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/bCustomOutputSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize outputSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/outputSize</TokenIdentifier>
+			<Abstract type="html">output picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/bCustomOutputSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) CGSize outputSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setCropRegion:</TokenIdentifier>
+			<Abstract type="html">裁剪区域 将输入的图像按照区域裁剪出中间的一块</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/cropRegion</TokenIdentifier>
+			<Abstract type="html">裁剪区域 将输入的图像按照区域裁剪出中间的一块</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/cropRegion</TokenIdentifier>
+			<Abstract type="html">裁剪区域 将输入的图像按照区域裁剪出中间的一块</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) CGRect cropRegion</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegion</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setInputSize:</TokenIdentifier>
+			<Abstract type="html">input picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize inputSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/inputSize</TokenIdentifier>
+			<Abstract type="html">input picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize inputSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/inputSize</TokenIdentifier>
+			<Abstract type="html">input picture size</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize inputSize</Declaration>
+			
+			
+			<Anchor>//api/name/inputSize</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setBAutoRepeat:</TokenIdentifier>
+			<Abstract type="html">是否冻结图像(主动提供重复图像)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL bAutoRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/bAutoRepeat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/bAutoRepeat</TokenIdentifier>
+			<Abstract type="html">是否冻结图像(主动提供重复图像)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL bAutoRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/bAutoRepeat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/bAutoRepeat</TokenIdentifier>
+			<Abstract type="html">是否冻结图像(主动提供重复图像)</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL bAutoRepeat</Declaration>
+			
+			
+			<Anchor>//api/name/bAutoRepeat</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setTargetFps:</TokenIdentifier>
+			<Abstract type="html">0表示根据过去输入的图像来猜测帧率, 1~30 表示按照设定的帧率提供重复的帧, 默认为0</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int targetFps</Declaration>
+			
+			
+			<Anchor>//api/name/targetFps</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/targetFps</TokenIdentifier>
+			<Abstract type="html">0表示根据过去输入的图像来猜测帧率, 1~30 表示按照设定的帧率提供重复的帧, 默认为0</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int targetFps</Declaration>
+			
+			
+			<Anchor>//api/name/targetFps</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/targetFps</TokenIdentifier>
+			<Abstract type="html">0表示根据过去输入的图像来猜测帧率, 1~30 表示按照设定的帧率提供重复的帧, 默认为0</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int targetFps</Declaration>
+			
+			
+			<Anchor>//api/name/targetFps</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/getInputRotation</TokenIdentifier>
+			<Abstract type="html">input roation mode</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>- (GPUImageRotationMode)getInputRotation</Declaration>
+			
+			<ReturnValue><Abstract type="html">图像的旋转模式</Abstract></ReturnValue>
+			<Anchor>//api/name/getInputRotation</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/setVideoProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CVPixelBufferRef pixelBuffer , CMTime timeInfo ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionGPUPicOutput/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CVPixelBufferRef pixelBuffer , CMTime timeInfo ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionGPUPicOutput/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionGPUPicOutput.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CVPixelBufferRef pixelBuffer , CMTime timeInfo ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/UnionPublisher.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/UnionPublisher</TokenIdentifier>
+			<Abstract type="html">发送模块接口定义</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/setVideoEncCfg:</TokenIdentifier>
+			<Abstract type="html">设置视频格式</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (void)setVideoEncCfg:(UnionVideoEncCfg *)videoEncCfg</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>videoFmt</Name>
+					<Abstract type="html">视频格式</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setVideoEncCfg:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/setAudioEncCfg:</TokenIdentifier>
+			<Abstract type="html">设置音频格式</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (void)setAudioEncCfg:(UnionAudioEncCfg *)audioEncCfg</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>audioFmt</Name>
+					<Abstract type="html">音频格式</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAudioEncCfg:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/setMetaData:</TokenIdentifier>
+			<Abstract type="html">设置metadata</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (void)setMetaData:(NSDictionary *)metadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>metadata</Name>
+					<Abstract type="html">自定义的meta，视频宽高等内部会按照videoFmt和audioFmt信息来填充</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMetaData:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/startStream:</TokenIdentifier>
+			<Abstract type="html">启动推流</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (int)startStream:(NSURL *__nonnull)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">目标地址</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回0，失败返回负数</Abstract></ReturnValue>
+			<Anchor>//api/name/startStream:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/sendPacket:</TokenIdentifier>
+			<Abstract type="html">发送数据包</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (int)sendPacket:(UnionAVPacket *)packet</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packet</Name>
+					<Abstract type="html">待发送数据</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回0，失败返回负数</Abstract></ReturnValue>
+			<Anchor>//api/name/sendPacket:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/stopStream</TokenIdentifier>
+			<Abstract type="html">停止推流</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>- (void)stopStream</Declaration>
+			
+			
+			<Anchor>//api/name/stopStream</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/setPublisherState:</TokenIdentifier>
+			<Abstract type="html">当前推流状况</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPublisherState publisherState</Declaration>
+			
+			
+			<Anchor>//api/name/publisherState</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UnionPublisher/publisherState</TokenIdentifier>
+			<Abstract type="html">当前推流状况</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPublisherState publisherState</Declaration>
+			
+			
+			<Anchor>//api/name/publisherState</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UnionPublisher/publisherState</TokenIdentifier>
+			<Abstract type="html">当前推流状况</Abstract>
+			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UnionPublisherState publisherState</Declaration>
+			
+			
+			<Anchor>//api/name/publisherState</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

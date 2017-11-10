@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionCaptureState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionCaptureState</TokenIdentifier>
+			<Abstract type="html">采集设备状态</Abstract>
+			<DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateIdle</TokenIdentifier>
+            <Abstract type="html">设备空闲中</Abstract>
+            <Declaration>UnionCaptureStateIdle</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateCapturing</TokenIdentifier>
+            <Abstract type="html">设备工作中</Abstract>
+            <Declaration>UnionCaptureStateCapturing</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateDevAuthDenied</TokenIdentifier>
+            <Abstract type="html">设备授权被拒绝</Abstract>
+            <Declaration>UnionCaptureStateDevAuthDenied</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateClosingCapture</TokenIdentifier>
+            <Abstract type="html">关闭采集设备中</Abstract>
+            <Declaration>UnionCaptureStateClosingCapture</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateParameterError</TokenIdentifier>
+            <Abstract type="html">参数错误，无法打开（比如设置的分辨率，码率当前设备不支持）</Abstract>
+            <Declaration>UnionCaptureStateParameterError</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionCaptureStateDevBusy</TokenIdentifier>
+            <Abstract type="html">设备正忙，请稍后尝试 ( 该状态在发出通知0.5秒后被清除 ）</Abstract>
+            <Declaration>UnionCaptureStateDevBusy</Declaration>
+            
+            <DeclaredIn>UnionStreamKit.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

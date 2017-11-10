@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionAVFCapture.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionAVFCapture</TokenIdentifier>
+			<Abstract type="html">基于 AVFoundation的 音视频采集模块</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setIsRunning:</TokenIdentifier>
+			<Abstract type="html">Whether or not the underlying AVCaptureSession is running</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/isRunning</TokenIdentifier>
+			<Abstract type="html">Whether or not the underlying AVCaptureSession is running</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/isRunning</TokenIdentifier>
+			<Abstract type="html">Whether or not the underlying AVCaptureSession is running</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL isRunning</Declaration>
+			
+			
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setCaptureSession:</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/captureSession</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/captureSession</TokenIdentifier>
+			<Abstract type="html">The AVCaptureSession used to capture from the camera</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, retain, nonatomic) AVCaptureSession *captureSession</Declaration>
+			
+			
+			<Anchor>//api/name/captureSession</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setCaptureSessionPreset:</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/captureSessionPreset</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/captureSessionPreset</TokenIdentifier>
+			<Abstract type="html">This enables the capture session preset to be changed on the fly</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, copy) NSString *captureSessionPreset</Declaration>
+			
+			
+			<Anchor>//api/name/captureSessionPreset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setFrameRate:</TokenIdentifier>
+			<Abstract type="html">采集帧率 有效范围为 0~30</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/frameRate</TokenIdentifier>
+			<Abstract type="html">采集帧率 有效范围为 0~30</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/frameRate</TokenIdentifier>
+			<Abstract type="html">采集帧率 有效范围为 0~30</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) int32_t frameRate</Declaration>
+			
+			
+			<Anchor>//api/name/frameRate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setOutputPixelFmt:</TokenIdentifier>
+			<Abstract type="html">输出图像的像素格式 有效值 为 NV12 和BGRA
+  - kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+  - kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
+  - kCVPixelFormatType_32BGRA</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) OSType outputPixelFmt</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFmt</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/outputPixelFmt</TokenIdentifier>
+			<Abstract type="html">输出图像的像素格式 有效值 为 NV12 和BGRA
+  - kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+  - kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
+  - kCVPixelFormatType_32BGRA</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) OSType outputPixelFmt</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFmt</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/outputPixelFmt</TokenIdentifier>
+			<Abstract type="html">输出图像的像素格式 有效值 为 NV12 和BGRA
+  - kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+  - kCVPixelFormatType_420YpCbCr8BiPlanarFullRange
+  - kCVPixelFormatType_32BGRA</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite) OSType outputPixelFmt</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFmt</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setFrontFacingCameraPresent:</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/isFrontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/frontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isFrontFacingCameraPresent) BOOL frontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/frontFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setBackFacingCameraPresent:</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/isBackFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/backFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">Easy way to tell which cameras are present on device</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isBackFacingCameraPresent) BOOL backFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/backFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setInputCamera:</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/inputCamera</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/inputCamera</TokenIdentifier>
+			<Abstract type="html">Use this property to manage camera settings. Focus point, exposure point, etc.</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) AVCaptureDevice *inputCamera</Declaration>
+			
+			
+			<Anchor>//api/name/inputCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setOutputImageOrientation:</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/outputImageOrientation</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/outputImageOrientation</TokenIdentifier>
+			<Abstract type="html">This determines the rotation applied to the output image, based on the source material</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/outputImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setBMirrorRearCamera:</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, (YES, NO).</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL bMirrorFrontCamera , bMirrorRearCamera</Declaration>
+			
+			
+			<Anchor>//api/name/bMirrorRearCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/bMirrorRearCamera</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, (YES, NO).</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL bMirrorFrontCamera , bMirrorRearCamera</Declaration>
+			
+			
+			<Anchor>//api/name/bMirrorRearCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/bMirrorRearCamera</TokenIdentifier>
+			<Abstract type="html">These properties determine whether or not the two camera orientations should be mirrored. By default, (YES, NO).</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL bMirrorFrontCamera , bMirrorRearCamera</Declaration>
+			
+			
+			<Anchor>//api/name/bMirrorRearCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UnionAVFCapture/isBackFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">后置摄像头是否存在</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isBackFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/isBackFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UnionAVFCapture/isFrontFacingCameraPresent</TokenIdentifier>
+			<Abstract type="html">前置摄像头是否存在</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isFrontFacingCameraPresent</Declaration>
+			
+			
+			<Anchor>//api/name/isFrontFacingCameraPresent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UnionAVFCapture/uiOrientationToAVOrientation:</TokenIdentifier>
+			<Abstract type="html">UIInterfaceOrientation 转为 AVCaptureVideoOrientation</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>+ (AVCaptureVideoOrientation)uiOrientationToAVOrientation:(UIInterfaceOrientation)orien</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>orien</Name>
+					<Abstract type="html">UI 的朝向,比如状态栏相对Home键的位置</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/uiOrientationToAVOrientation:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/initWithSessionPreset:cameraPosition:</TokenIdentifier>
+			<Abstract type="html">Begin a capture session</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSessionPreset:(NSString *)sessionPreset cameraPosition:(AVCaptureDevicePosition)cameraPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionPreset</Name>
+					<Abstract type="html">Session preset to use</Abstract>
+				</Parameter><Parameter>
+					<Name>cameraPosition</Name>
+					<Abstract type="html">Camera to capture from</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSessionPreset:cameraPosition:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/addAudioInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Add audio capture to the session. Adding inputs and outputs freezes the capture session momentarily, so you
+    can use this method to add the audio inputs and outputs early, if you&apos;re going to set the audioEncodingTarget 
+    later. Returns YES is the audio inputs and outputs were added, or NO if they had already been added.</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)addAudioInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/addAudioInputsAndOutputs</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/removeAudioInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Remove the audio capture inputs and outputs from this session. Returns YES if the audio inputs and outputs
+    were removed, or NO is they hadn&apos;t already been added.</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeAudioInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/removeAudioInputsAndOutputs</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/removeInputsAndOutputs</TokenIdentifier>
+			<Abstract type="html">Tear down the capture session</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)removeInputsAndOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/removeInputsAndOutputs</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/startCameraCapture</TokenIdentifier>
+			<Abstract type="html">Start camera capturing</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)startCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/startCameraCapture</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/stopCameraCapture</TokenIdentifier>
+			<Abstract type="html">Stop camera capturing</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)stopCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/stopCameraCapture</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/pauseCameraCapture</TokenIdentifier>
+			<Abstract type="html">Pause camera capturing</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/pauseCameraCapture</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/resumeCameraCapture</TokenIdentifier>
+			<Abstract type="html">Resume camera capturing</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeCameraCapture</Declaration>
+			
+			
+			<Anchor>//api/name/resumeCameraCapture</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/cameraPosition</TokenIdentifier>
+			<Abstract type="html">Get the position (front, rear) of the source camera</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureDevicePosition)cameraPosition</Declaration>
+			
+			
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/videoCaptureConnection</TokenIdentifier>
+			<Abstract type="html">Get the AVCaptureConnection of the source camera</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureConnection *)videoCaptureConnection</Declaration>
+			
+			
+			<Anchor>//api/name/videoCaptureConnection</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/rotateCamera</TokenIdentifier>
+			<Abstract type="html">This flips between the front and rear cameras</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateCamera</Declaration>
+			
+			
+			<Anchor>//api/name/rotateCamera</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/captureDimension</TokenIdentifier>
+			<Abstract type="html">查询实际的采集分辨率</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)captureDimension</Declaration>
+			
+			
+			<Anchor>//api/name/captureDimension</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/isTorchSupported</TokenIdentifier>
+			<Abstract type="html">当前采集设备是否支持闪光灯</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isTorchSupported</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES / NO</Abstract></ReturnValue>
+			<Anchor>//api/name/isTorchSupported</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/toggleTorch</TokenIdentifier>
+			<Abstract type="html">开关闪光灯</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)toggleTorch</Declaration>
+			
+			
+			<Anchor>//api/name/toggleTorch</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setTorchMode:</TokenIdentifier>
+			<Abstract type="html">设置闪光灯</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>- (void)setTorchMode:(AVCaptureTorchMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">AVCaptureTorchModeOn/Off</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTorchMode:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setAudioProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/audioProcessingCallback</TokenIdentifier>
+			<Abstract type="html">音频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) audioProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/audioProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setVideoProcessingCallback:</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/videoProcessingCallback</TokenIdentifier>
+			<Abstract type="html">视频处理回调接口</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( CMSampleBufferRef sampleBuffer ) videoProcessingCallback</Declaration>
+			
+			
+			<Anchor>//api/name/videoProcessingCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/setInterruptCallback:</TokenIdentifier>
+			<Abstract type="html">采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAVFCapture/interruptCallback</TokenIdentifier>
+			<Abstract type="html">采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAVFCapture/interruptCallback</TokenIdentifier>
+			<Abstract type="html">采集被打断的消息通知</Abstract>
+			<DeclaredIn>UnionAVFCapture.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( BOOL bInterrupt ) interruptCallback</Declaration>
+			
+			
+			<Anchor>//api/name/interruptCallback</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

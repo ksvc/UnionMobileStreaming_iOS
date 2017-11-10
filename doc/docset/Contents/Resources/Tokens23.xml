@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/UnionBWEstimateMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionBWEstimateMode</TokenIdentifier>
+			<Abstract type="html">网络自适应模式</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_None</TokenIdentifier>
+            <Abstract type="html">禁用网络自适应</Abstract>
+            <Declaration>UnionBWEstimateMode_None</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Default</TokenIdentifier>
+            <Abstract type="html">综合模式, 较为平稳, 兼顾画面质量和流畅度</Abstract>
+            <Declaration>UnionBWEstimateMode_Default</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Negtive</TokenIdentifier>
+            <Abstract type="html">流畅优先模式, 优先考虑流畅度，其实是画面质量</Abstract>
+            <Declaration>UnionBWEstimateMode_Negtive</Declaration>
+            
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

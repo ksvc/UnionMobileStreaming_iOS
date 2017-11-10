@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UnionAdaptor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UnionAdaptor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setBWithVideo:</TokenIdentifier>
+			<Abstract type="html">是否处理视频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithVideo</Declaration>
+			
+			
+			<Anchor>//api/name/bWithVideo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/bWithVideo</TokenIdentifier>
+			<Abstract type="html">是否处理视频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithVideo</Declaration>
+			
+			
+			<Anchor>//api/name/bWithVideo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/bWithVideo</TokenIdentifier>
+			<Abstract type="html">是否处理视频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithVideo</Declaration>
+			
+			
+			<Anchor>//api/name/bWithVideo</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setBWithAudio:</TokenIdentifier>
+			<Abstract type="html">是否处理音频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bWithAudio</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/bWithAudio</TokenIdentifier>
+			<Abstract type="html">是否处理音频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bWithAudio</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/bWithAudio</TokenIdentifier>
+			<Abstract type="html">是否处理音频数据 (默认YES)</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL bWithAudio</Declaration>
+			
+			
+			<Anchor>//api/name/bWithAudio</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setAudioBitrate:</TokenIdentifier>
+			<Abstract type="html">音频编码码率（单位:kbps, 默认64）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int audioBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/audioBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/audioBitrate</TokenIdentifier>
+			<Abstract type="html">音频编码码率（单位:kbps, 默认64）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int audioBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/audioBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/audioBitrate</TokenIdentifier>
+			<Abstract type="html">音频编码码率（单位:kbps, 默认64）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int audioBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/audioBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setVideoInitBitrate:</TokenIdentifier>
+			<Abstract type="html">视频编码起始码率（单位:kbps, 默认:500）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoInitBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoInitBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/videoInitBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码起始码率（单位:kbps, 默认:500）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoInitBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoInitBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoInitBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码起始码率（单位:kbps, 默认:500）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoInitBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoInitBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setVideoMaxBitrate:</TokenIdentifier>
+			<Abstract type="html">视频编码最高码率（单位:kbps, 默认:800）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMaxBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaxBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/videoMaxBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码最高码率（单位:kbps, 默认:800）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMaxBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaxBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMaxBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码最高码率（单位:kbps, 默认:800）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMaxBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaxBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setVideoMinBitrate:</TokenIdentifier>
+			<Abstract type="html">视频编码最低码率（单位:kbps, 默认:200）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMaxBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMinBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMinBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码最低码率（单位:kbps, 默认:200）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMaxBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMinBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMinBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMinBitrate</TokenIdentifier>
+			<Abstract type="html">视频编码最低码率（单位:kbps, 默认:200）</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/videoMaxBitrate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) int videoMinBitrate</Declaration>
+			
+			
+			<Anchor>//api/name/videoMinBitrate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setBwEstimateMode:</TokenIdentifier>
+			<Abstract type="html">带宽估计模式</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionBWEstimateMode bwEstimateMode</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/bwEstimateMode</TokenIdentifier>
+			<Abstract type="html">带宽估计模式</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionBWEstimateMode bwEstimateMode</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/bwEstimateMode</TokenIdentifier>
+			<Abstract type="html">带宽估计模式</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnionBWEstimateMode bwEstimateMode</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setBwEstimateEventCallback:</TokenIdentifier>
+			<Abstract type="html">网络自适应事件</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionBWEstimateEvent event , int64_t value ) bwEstimateEventCallback</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateEventCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/bwEstimateEventCallback</TokenIdentifier>
+			<Abstract type="html">网络自适应事件</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionBWEstimateEvent event , int64_t value ) bwEstimateEventCallback</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateEventCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/bwEstimateEventCallback</TokenIdentifier>
+			<Abstract type="html">网络自适应事件</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionBWEstimateEvent event , int64_t value ) bwEstimateEventCallback</Declaration>
+			
+			
+			<Anchor>//api/name/bwEstimateEventCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/start</TokenIdentifier>
+			<Abstract type="html">启动网络自适应模块</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>- (int)start</Declaration>
+			
+			<ReturnValue><Abstract type="html">成功返回0，失败返回负数</Abstract></ReturnValue>
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/writePacket:</TokenIdentifier>
+			<Abstract type="html">写入数据包</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>- (int)writePacket:(UnionAVPacket *)packet</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packet</Name>
+					<Abstract type="html">待写入数据</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回0，失败返回负数</Abstract></ReturnValue>
+			<Anchor>//api/name/writePacket:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/stop</TokenIdentifier>
+			<Abstract type="html">停止网络自适应模块</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/setAdaptedPacketCallback:</TokenIdentifier>
+			<Abstract type="html">停止网络自适应模块</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) adaptedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/adaptedPacketCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UnionAdaptor/adaptedPacketCallback</TokenIdentifier>
+			<Abstract type="html">停止网络自适应模块</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) adaptedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/adaptedPacketCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UnionAdaptor/adaptedPacketCallback</TokenIdentifier>
+			<Abstract type="html">停止网络自适应模块</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( UnionAVPacket *pkt ) adaptedPacketCallback</Declaration>
+			
+			
+			<Anchor>//api/name/adaptedPacketCallback</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
