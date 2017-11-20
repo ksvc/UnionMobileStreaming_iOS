@@ -81,6 +81,8 @@ enum {
     UNION_AV_FLAG_P_FRAME = 1<<3,
     /// 当前packet中为B帧
     UNION_AV_FLAG_B_FRAME = 1<<4,
+    /// 当前数据为opaque
+    UNION_AV_FLAG_OPAQUE = 1<<5,
 };
 
 /// 媒体类型

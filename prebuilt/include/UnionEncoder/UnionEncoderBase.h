@@ -65,6 +65,9 @@
 /// 输出编码后的压缩数据
 @property(nonatomic, copy) void(^encodedPacketCallback)(UnionAVPacket * pkt);
 
+/// 编码器参数变化回调
+@property(nonatomic, copy) void(^encoderConfigUpdateCallback)(UnionEncoderCfg* cfg);
+
 #pragma mark - informations
 
 /** 当前的编码参数 */

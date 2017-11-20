@@ -24,8 +24,13 @@
 
 - (id)initWithUrl:(NSURL *)rtmpUrl andPreset:(UnionPreset) preset;
 
+@property NSInteger audioCodecIdx;
+@property NSInteger videoCodecIdx;
+
 // 重写此方法，调整UI布局
 - (void)setupUI;
 - (void)onBtn:(UIButton *)btn;
 - (void)onQuit;
 @end
+
+#define SEL_VALUE(SEL_NAME) [NSValue valueWithPointer:@selector(SEL_NAME)]

@@ -345,7 +345,7 @@
 				DEVELOPMENT_TEAM = ZGJ54Q7R45;
 				INFOPLIST_FILE = UnionStreamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.UnionStreamDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.opencdnunion.UnionStreamDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -359,7 +359,7 @@
 				DEVELOPMENT_TEAM = ZGJ54Q7R45;
 				INFOPLIST_FILE = UnionStreamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.UnionStreamDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.opencdnunion.UnionStreamDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'UnionMobileStreaming'
-  s.version      = '0.9.0'
+  s.version      = '1.0.0'
   s.license      = {
 :type => 'Proprietary',
 :text => <<-LICENSE
-      Copyright 2015 kingsoft Ltd. All rights reserved.
+      Copyright 2017 opencdnunion Ltd. All rights reserved.
       LICENSE
   }
-  s.homepage     = 'http://v.ksyun.com/doc.html'
+  s.homepage     = 'https://github.com/ksvc/UnionMobileStreaming_iOS'
   s.authors      = { 'ksyun' => 'zengfanping@kingsoft.com' }
   s.summary      = 'UnionMobileStreaming for stream live video from ios mobile devices.'
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks   = [ 'AVFoundation', 'VideoToolbox', 'AudioToolbox']
   s.ios.deployment_target = '8.0'
   s.source = { 
-    :git => 'https://github.com/ksvc/UnionMobileStreaming.git',
+    :git => 'https://github.com/ksvc/UnionMobileStreaming_iOS.git',
     :tag => 'v'+s.version.to_s
   }
   s.requires_arc = true

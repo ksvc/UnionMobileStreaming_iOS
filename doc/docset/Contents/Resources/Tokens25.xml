@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/UnionMicType.html">
+	<File path="Constants/UnionBWEstimateMode.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/UnionMicType</TokenIdentifier>
-			<Abstract type="html">音频输入设备类型</Abstract>
-			<DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionBWEstimateMode</TokenIdentifier>
+			<Abstract type="html">网络自适应模式</Abstract>
+			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
             
 			
 			<NodeRef refid="25"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_builtinMic</TokenIdentifier>
-            <Abstract type="html">Built-in microphone on an iOS device</Abstract>
-            <Declaration>UnionMicType_builtinMic</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_None</TokenIdentifier>
+            <Abstract type="html">禁用网络自适应</Abstract>
+            <Declaration>UnionBWEstimateMode_None</Declaration>
             
-            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
-            
-            <NodeRef refid="25"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_headsetMic</TokenIdentifier>
-            <Abstract type="html">Microphone on a wired headset</Abstract>
-            <Declaration>UnionMicType_headsetMic</Declaration>
-            
-            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
             
             <NodeRef refid="25"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_bluetoothMic</TokenIdentifier>
-            <Abstract type="html">蓝牙设备</Abstract>
-            <Declaration>UnionMicType_bluetoothMic</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Default</TokenIdentifier>
+            <Abstract type="html">综合模式, 较为平稳, 兼顾画面质量和流畅度</Abstract>
+            <Declaration>UnionBWEstimateMode_Default</Declaration>
             
-            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
             
             <NodeRef refid="25"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_unknow</TokenIdentifier>
-            <Abstract type="html">未知设备</Abstract>
-            <Declaration>UnionMicType_unknow</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Negtive</TokenIdentifier>
+            <Abstract type="html">流畅优先模式, 优先考虑流畅度，其实是画面质量</Abstract>
+            <Declaration>UnionBWEstimateMode_Negtive</Declaration>
             
-            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
             
             <NodeRef refid="25"/>
         </Token>

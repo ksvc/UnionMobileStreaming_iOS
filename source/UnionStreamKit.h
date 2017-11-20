@@ -7,9 +7,6 @@
 //
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-//#import "libUniongpulive.h"
-//#import "libUnionstreamerengine.h"
-//#import "libUniongpufilter.h"
 #import "libunionmediaengine.h"
 
 #import "UnionVT264Encoder.h"
@@ -92,6 +89,15 @@ typedef NS_ENUM(NSInteger, UnionPreset) {
 @property (nonatomic, readonly)   UnionPreset preset;
 
 /**
+ 音频编码配置信息, 根据preset会预先填充一部分
+ */
+@property (nonatomic, readonly)   UnionEncoderCfg * _Nonnull audioEncCfg;
+/**
+ 视频编码配置信息, 根据preset会预先填充一部分
+ */
+@property (nonatomic, readonly)   UnionEncoderCfg * _Nonnull videoEncCfg;
+
+/**
  @abstract   获取SDK版本号
  */
 - (NSString* _Nonnull) getUnionVersion;
@@ -157,14 +163,14 @@ typedef NS_ENUM(NSInteger, UnionPreset) {
 #pragma mark - sub modules - encoder and publisher
 
 /**
- 视频编码器
+ 视频编码器, 构造kit之后,  可以自己根据类型创建编码器, 默认为 VideoToolBox 264
  */
-@property (nonatomic, readonly) id<UnionEncoder>      _Nonnull vEncoder;
+@property (nonatomic, readwrite) id<UnionEncoder>      _Nonnull vEncoder;
 
 /**
- 音频编码器
+ 音频编码器, 构造kit之后,  可以自己根据类型创建编码器, 默认为 AudioToolBox AACLC
  */
-@property (nonatomic, readonly) id<UnionEncoder>      _Nonnull aEncoder;
+@property (nonatomic, readwrite) id<UnionEncoder>      _Nonnull aEncoder;
 
 /**
  @abstract   音频编码器

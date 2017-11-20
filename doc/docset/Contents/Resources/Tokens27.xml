@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/UnionPublisherState.html">
+	<File path="Constants/UnionMicType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/UnionPublisherState</TokenIdentifier>
-			<Abstract type="html">发送端状态</Abstract>
-			<DeclaredIn>UnionPublisher.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionMicType</TokenIdentifier>
+			<Abstract type="html">音频输入设备类型</Abstract>
+			<DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
             
 			
 			<NodeRef refid="27"/>
@@ -14,41 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Idle</TokenIdentifier>
-            <Abstract type="html">初始化状态</Abstract>
-            <Declaration>UnionPublisherState_Idle</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_builtinMic</TokenIdentifier>
+            <Abstract type="html">Built-in microphone on an iOS device</Abstract>
+            <Declaration>UnionMicType_builtinMic</Declaration>
             
-            <DeclaredIn>UnionPublisher.h</DeclaredIn>
-            
-            <NodeRef refid="27"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Started</TokenIdentifier>
-            <Abstract type="html">推流中</Abstract>
-            <Declaration>UnionPublisherState_Started</Declaration>
-            
-            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
             
             <NodeRef refid="27"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Stopped</TokenIdentifier>
-            <Abstract type="html">推流结束</Abstract>
-            <Declaration>UnionPublisherState_Stopped</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_headsetMic</TokenIdentifier>
+            <Abstract type="html">Microphone on a wired headset</Abstract>
+            <Declaration>UnionMicType_headsetMic</Declaration>
             
-            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
             
             <NodeRef refid="27"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionPublisherState_Error</TokenIdentifier>
-            <Abstract type="html">推流错误</Abstract>
-            <Declaration>UnionPublisherState_Error</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_bluetoothMic</TokenIdentifier>
+            <Abstract type="html">蓝牙设备</Abstract>
+            <Declaration>UnionMicType_bluetoothMic</Declaration>
             
-            <DeclaredIn>UnionPublisher.h</DeclaredIn>
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionMicType_unknow</TokenIdentifier>
+            <Abstract type="html">未知设备</Abstract>
+            <Declaration>UnionMicType_unknow</Declaration>
+            
+            <DeclaredIn>AVAudioSession+Union.h</DeclaredIn>
             
             <NodeRef refid="27"/>
         </Token>

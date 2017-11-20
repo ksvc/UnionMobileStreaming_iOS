@@ -62,6 +62,8 @@
 		
 		<option value="//api/name/aMixer">aMixer</option>
 		
+		<option value="//api/name/audioEncCfg">audioEncCfg</option>
+		
 		<option value="//api/name/audioProcessingCallback">audioProcessingCallback</option>
 		
 		<option value="//api/name/avAdaptor">avAdaptor</option>
@@ -135,6 +137,8 @@
 		<option value="//api/name/vPreviewMixer">vPreviewMixer</option>
 		
 		<option value="//api/name/vStreamMixer">vStreamMixer</option>
+		
+		<option value="//api/name/videoEncCfg">videoEncCfg</option>
 		
 		<option value="//api/name/videoFPS">videoFPS</option>
 		
@@ -451,6 +455,88 @@
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>选择profile类型后, 采集和编码参数会自动配置进去, 默认为 <a href="../Constants/UnionPreset.html">UnionPreset</a>_540p_3</p>
 			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UnionStreamKit.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/audioEncCfg" title="audioEncCfg"></a>
+	<h3 class="method-title"><code><a href="#//api/name/audioEncCfg">&nbsp;&nbsp;audioEncCfg</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>音频编码配置信息, 根据preset会预先填充一部分</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) UnionEncoderCfg *audioEncCfg</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UnionStreamKit.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/videoEncCfg" title="videoEncCfg"></a>
+	<h3 class="method-title"><code><a href="#//api/name/videoEncCfg">&nbsp;&nbsp;videoEncCfg</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>视频编码配置信息, 根据preset会预先填充一部分</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) UnionEncoderCfg *videoEncCfg</code></div>
+
+		    
+			
+
+			
+
+			
+
 			
 
 			
@@ -929,12 +1015,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>视频编码器</p>
+				<p>视频编码器, 构造kit之后,  可以自己根据类型创建编码器, 默认为 VideoToolBox 264</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull vEncoder</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) id&lt;UnionEncoder&gt; _Nonnull vEncoder</code></div>
 
 		    
 			
@@ -970,12 +1056,12 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>音频编码器</p>
+				<p>音频编码器, 构造kit之后,  可以自己根据类型创建编码器, 默认为 AudioToolBox AACLC</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) id&lt;UnionEncoder&gt; _Nonnull aEncoder</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) id&lt;UnionEncoder&gt; _Nonnull aEncoder</code></div>
 
 		    
 			

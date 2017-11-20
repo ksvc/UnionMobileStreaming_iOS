@@ -23,13 +23,39 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -all_load' }
 
+  s.subspec 'UnionCommon' do |sub|
+    sub.source_files = ['*.{h,c,m}']
+  end
   s.subspec 'UnionPublisher' do |sub|
     sub.source_files = [
-      '*.{h,c,m}',
+      'thirdparty/include/librtmp/*.{h,c,m}',
       'UnionPublisher/*.{h,c,m}',
       'UnionPublisher/iOS/*.{h,c,m}',
-      'UnionPublisher/librtmp/include/*.{h}'
     ]
-    sub.vendored_library = ['UnionPublisher/librtmp/libs/*.a']
+    sub.vendored_library = [
+      'thirdparty/libs/librtmp.a',
+      'thirdparty/libs/libssl.a',
+      'thirdparty/libs/libcrypto.a'
+    ]
+  end
+  s.subspec 'UnionEncoderX264' do |sub|
+    sub.source_files = [
+      'thirdparty/include/x264/*.{h,c,m}',
+      'UnionEncoderX264/*.{h,c,m}',
+      'UnionEncoderX264/iOS/*.{h,c,m}',
+    ]
+    sub.vendored_library = ['thirdparty/libs/libx264.a']
+  end
+
+  s.subspec 'UnionEncoderFDKAAC' do |sub|
+    sub.source_files = 'UnionEncoderFDKAAC/iOS/*.{h,c,m}'
+  end
+  s.subspec 'libfdk-aac' do |sub|
+    sub.source_files = [
+      'thirdparty/include/fdk-aac/*.h',
+      'UnionEncoderFDKAAC/*.{h,c,m}',
+    ]
+    sub.header_mappings_dir = 'thirdparty/include/'
+    sub.vendored_library = ['thirdparty/libs/libfdk-aac.a']
   end
 end

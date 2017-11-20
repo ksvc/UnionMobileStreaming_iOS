@@ -5,6 +5,7 @@
 //  Copyright © 2017 ksyun. All rights reserved.
 //
 #include <stdio.h>
+#include <stdbool.h>
 #include "UnionPublisherDef.h"
 #include "UnionAVCommon.h"
 
@@ -91,15 +92,6 @@ enum {
  @return flv audio tag的第一个字节
  */
 uint8_t unionflv_get_audio_flags(UnionAudioEncCfg *audioEncCfg);
-
-/**
- @abstract 获取flv aac AudioSpecificConfig
- 
- @param audiofmt 音频格式
- 
- @return AudioSpecificConfig
- */
-uint16_t unionflv_get_aac_speccfg(UnionAudioEncCfg *audioEncCfg);
 
 /**
  @abstract 获取flv video tag的第一个字节

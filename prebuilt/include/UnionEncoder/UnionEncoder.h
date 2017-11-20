@@ -69,6 +69,10 @@
 @required
 @property(nonatomic, copy) void(^encodedPacketCallback)(UnionAVPacket * pkt);
 
+/// 编码器参数变化回调
+@optional
+@property(nonatomic, copy) void(^encoderConfigUpdateCallback)(UnionEncoderCfg* cfg);
+
 #pragma mark - informations
 
 /** 当前的编码参数 */

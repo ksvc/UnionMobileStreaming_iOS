@@ -21,6 +21,9 @@ UIPickerViewDelegate>{
 @property UIPickerView *profilePicker; // 选择参数
 @property UIButton     *startBtn;      //开始推流
 
+@property UISegmentedControl* aCodecSeg; // 音频codec
+@property UISegmentedControl* vCodecSeg; // 视频codec
+
 @property NSInteger         curProfileIdx;
 @property NSURL             *url;
 
@@ -33,7 +36,7 @@ UIPickerViewDelegate>{
     NSString * uuidStr =[[[UIDevice currentDevice] identifierForVendor] UUIDString];
     NSString *devCode  = [[uuidStr substringToIndex:3] lowercaseString];
     //推流地址
-    NSString *streamSrv  = @"rtmp://test.uplive.ks-cdn.com/live";
+    NSString *streamSrv  = @"rtmp://120.92.224.235/live";
     NSString *streamUrl      = [ NSString stringWithFormat:@"%@/%@", streamSrv, devCode];
     _url = [[NSURL alloc] initWithString:streamUrl];
     
@@ -62,6 +65,8 @@ UIPickerViewDelegate>{
     [_profilePicker selectRow:7 inComponent:0 animated:YES];
     [self pickerView:_profilePicker didSelectRow:7 inComponent:0];
     
+    _aCodecSeg = [_ctrlView addSegCtrlWithItems:@[@"ATAAC", @"fdk-aac"]];
+    _vCodecSeg = [_ctrlView addSegCtrlWithItems:@[@"VT264", @"x264"]];
     _startBtn = [_ctrlView addButton:@"开始"];
 
     [self.view addSubview:_ctrlView];
@@ -76,6 +81,8 @@ UIPickerViewDelegate>{
     _ctrlView.yPos +=_ctrlView.btnH;
     _ctrlView.btnH = 216;
     [_ctrlView putRow1:_profilePicker];
+    _ctrlView.btnH = 30;
+    [_ctrlView putRow:@[_aCodecSeg, _vCodecSeg]];
     _ctrlView.btnH = _ctrlView.height - _ctrlView.yPos;
     [_ctrlView putRow:@[_startBtn]];
 }
@@ -87,6 +94,8 @@ UIPickerViewDelegate>{
     else if (btn ==  _startBtn) {
         _url = [[NSURL alloc] initWithString:_hostUrlUI.text];
         UnionStreamVC * vc = [[UnionStreamVC alloc] initWithUrl:_url andPreset:_curProfileIdx];
+        vc.audioCodecIdx = _aCodecSeg.selectedSegmentIndex;
+        vc.videoCodecIdx = _vCodecSeg.selectedSegmentIndex;
         [self presentViewController:vc animated:true completion:nil];
     }
 }

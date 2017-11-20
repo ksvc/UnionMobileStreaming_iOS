@@ -11,6 +11,7 @@
 #define UnionLogW(fmt, args...) __android_log_print(ANDROID_LOG_WARN, LOG_TAG, fmt, ##args)
 #define UnionLogE(fmt, args...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, fmt, ##args)
 #else
+#include <stdio.h>
 #define UnionLogV printf
 #define UnionLogD printf
 #define UnionLogI printf

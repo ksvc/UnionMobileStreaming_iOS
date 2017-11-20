@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/UnionBWEstimateMode.html">
+	<File path="Constants/UnionAudioEffectType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/UnionBWEstimateMode</TokenIdentifier>
-			<Abstract type="html">网络自适应模式</Abstract>
-			<DeclaredIn>UnionAdaptor.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/UnionAudioEffectType</TokenIdentifier>
+			<Abstract type="html">音效类型</Abstract>
+			<DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
             
 			
 			<NodeRef refid="23"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_None</TokenIdentifier>
-            <Abstract type="html">禁用网络自适应</Abstract>
-            <Declaration>UnionBWEstimateMode_None</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionAudioEffectType_NONE</TokenIdentifier>
+            <Abstract type="html">初始化时状态为空闲</Abstract>
+            <Declaration>UnionAudioEffectType_NONE</Declaration>
             
-            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
-            
-            <NodeRef refid="23"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Default</TokenIdentifier>
-            <Abstract type="html">综合模式, 较为平稳, 兼顾画面质量和流畅度</Abstract>
-            <Declaration>UnionBWEstimateMode_Default</Declaration>
-            
-            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            <DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
             
             <NodeRef refid="23"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/UnionBWEstimateMode_Negtive</TokenIdentifier>
-            <Abstract type="html">流畅优先模式, 优先考虑流畅度，其实是画面质量</Abstract>
-            <Declaration>UnionBWEstimateMode_Negtive</Declaration>
+            <TokenIdentifier>//apple_ref/c/econst/UnionAudioEffectType_MALE</TokenIdentifier>
+            <Abstract type="html">大叔</Abstract>
+            <Declaration>UnionAudioEffectType_MALE</Declaration>
             
-            <DeclaredIn>UnionAdaptor.h</DeclaredIn>
+            <DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionAudioEffectType_FEMALE</TokenIdentifier>
+            <Abstract type="html">萝莉</Abstract>
+            <Declaration>UnionAudioEffectType_FEMALE</Declaration>
+            
+            <DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionAudioEffectType_HEROIC</TokenIdentifier>
+            <Abstract type="html">宏大</Abstract>
+            <Declaration>UnionAudioEffectType_HEROIC</Declaration>
+            
+            <DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnionAudioEffectType_ROBOT</TokenIdentifier>
+            <Abstract type="html">机器人</Abstract>
+            <Declaration>UnionAudioEffectType_ROBOT</Declaration>
+            
+            <DeclaredIn>UnionAUAudioCapture.h</DeclaredIn>
             
             <NodeRef refid="23"/>
         </Token>

@@ -8,12 +8,15 @@
 #import "UnionPublisherDef.h"
 #import "UnionLibrtmp.h"
 
+#define CASE_RETURN( ENU ) case ENU : {return @#ENU;}
+NSString *const UnionPublisherStateDidChangeNotification =@"UnionPublisherStateDidChangeNotification";
+
 @interface UnionLibrtmpPublisher(){
     UnionLibrtmp_t  *_publisher;
-    NSDictionary    *_streamMetadata;
 }
 
 @property (nonatomic, readwrite) UnionPublisherState publisherState;
+@property (nonatomic, readwrite) NSError* error;
 
 @end
 
@@ -29,7 +32,6 @@
     if(NULL == _publisher)
         return nil;
     
-   _streamMetadata = nil;
     _publisherState = UnionPublisherState_Idle;
     return self;
 }
@@ -52,9 +54,7 @@
     if(NULL == _publisher)
         return ;
     
-    UnionVideoEncCfg *vEncCfg = union_librtmp_get_videocfg(_publisher);
-    if(vEncCfg)
-        memcpy(vEncCfg, videoEncCfg, sizeof(UnionVideoEncCfg));
+    union_librtmp_set_videocfg(_publisher, videoEncCfg);
     return ;
 }
 
@@ -66,9 +66,7 @@
     if(NULL == _publisher)
         return ;
     
-    UnionAudioEncCfg *aEncCfg = union_librtmp_get_audiocfg(_publisher);
-    if(aEncCfg)
-        memcpy(aEncCfg, audioEncCfg, sizeof(UnionVideoEncCfg));
+    union_librtmp_set_videocfg(_publisher, audioEncCfg);
     return ;
 }
 
@@ -78,7 +76,24 @@
  */
 - (void) setMetaData:(NSDictionary *)metadata
 {
-    _streamMetadata = metadata;
+    UnionDict metaDict = {0, NULL};
+    if(metadata)
+    {
+        for (NSString *key in [metadata allKeys]) {
+            id val = [metadata objectForKey:key];
+            const char *name = [key UTF8String];
+            if ([val isKindOfClass:[NSString class]]) {
+                const char *str = [(NSString*)val UTF8String];
+                union_librtmp_set_userMetadata(_publisher, name, 0, str);
+            }
+            else if ([val isKindOfClass:[NSNumber class]]) {
+                double number = [(NSNumber*)val doubleValue];
+                union_librtmp_set_userMetadata(_publisher, name, number, nil);
+            }
+            else
+                continue;
+        }
+    }
 }
 
 #pragma mark - publish
@@ -90,57 +105,32 @@
 - (int)startStream: (NSURL* __nonnull) url
 {
     char *rtmpUrl = [[url absoluteString] UTF8String];
-    int ret = -1;
+    int errorCode = UnionPublisherErrorCode_Unknown;
+    int ret = UnionPublisher_Error_Unknown;
     
-    if(NULL == _publisher || NULL == url || ![[url scheme] isEqualToString:@"rtmp"])
+    if(NULL == _publisher)
         goto FAIL;
+    
+    if(NULL == url || ![[url scheme] isEqualToString:@"rtmp"])
+    {
+        ret = UnionPublisher_Error_Invalid_Address;
+        goto FAIL;
+    }
     
     if(UnionPublisherState_Started != _publisherState)
     {
-        UnionDict metaDict = {0, NULL};
-        if(_streamMetadata)
-        {
-            metaDict.elems = (UnionDictElem *)malloc([_streamMetadata count] * sizeof(UnionDictElem));
-            if(metaDict.elems)
-            {
-                memset(metaDict.elems, 0, sizeof([_streamMetadata count] * sizeof(UnionDictElem)));
-                
-                for (NSString *key in [_streamMetadata allKeys]) {
-                    id val = [_streamMetadata objectForKey:key];
-                    const char *name = [key UTF8String];
-                    if ([val isKindOfClass:[NSString class]]) {
-                        const char *str = [(NSString*)val UTF8String];
-                        metaDict.elems[metaDict.number].type = UnionDataType_String;
-                        metaDict.elems[metaDict.number].val.string = str;
-                    }
-                    else if ([val isKindOfClass:[NSNumber class]]) {
-                        double number = [(NSNumber*)val doubleValue];
-                        metaDict.elems[metaDict.number].type = UnionDataType_Number;
-                        metaDict.elems[metaDict.number].val.number = number;
-                    }
-                    else
-                        continue;
-                    metaDict.elems[metaDict.number].name = name;
-                    metaDict.number++;
-                }
-            }
-        }
-            
-        ret = union_librtmp_start(_publisher, rtmpUrl, &metaDict);
-
-        if(metaDict.elems)
-            free(metaDict.elems);
-            
+        ret = union_librtmp_start(_publisher, rtmpUrl, NULL);
         if(ret < 0)
             goto FAIL;
+        
+        [self newStreamState:UnionPublisherState_Started errorCode:0 info:nil];
     }
-    
-    _publisherState = UnionPublisherState_Started;
+
     return 0;
     
 FAIL:
-
-    _publisherState = UnionPublisherState_Error;
+    errorCode = (UnionPublisherErrorCode)ret;
+    [self newStreamState:UnionPublisher_Status_Error errorCode:errorCode info:[self getStreamStateName:errorCode]];
     return -1;
 }
 
@@ -155,7 +145,7 @@ FAIL:
     if(_publisher)
         union_librtmp_stop(_publisher);
     
-    _publisherState = UnionPublisherState_Stopped;
+    [self newStreamState:UnionPublisherState_Stopped errorCode:0 info:nil];
     return ;
 }
 
@@ -168,9 +158,54 @@ FAIL:
         return -1;
     
     int ret = union_librtmp_send(_publisher, packet);
+    
     if(ret < 0)
-        _publisherState = UnionPublisher_Status_Error;
+    {
+        int errorCode = (UnionPublisherErrorCode)ret;
+        [self newStreamState:UnionPublisher_Status_Error errorCode:errorCode info:[self getStreamStateName:errorCode]];
+    }
+
     return ret;
+}
+
+#pragma mark - state
+
+/**
+ @abstract 状态变化
+ */
+- (void) newStreamState:(UnionPublisherState)state errorCode:(UnionPublisherErrorCode)errorCode info:(NSString*)info
+{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if(_publisherState != state)
+        {
+            _publisherState = state;
+            if(UnionPublisherState_Error == state)
+            {
+                NSDictionary *userInfo = @{NSLocalizedDescriptionKey: info};
+                _error = [[NSError alloc] initWithDomain:@"UnionLibrtmpPublisher"
+                                                    code:errorCode
+                                                userInfo:userInfo];
+            }
+            else
+                _error = nil;
+            
+            [[NSNotificationCenter defaultCenter] postNotificationName:UnionPublisherStateDidChangeNotification
+                                                                object:self];
+        }
+    });
+}
+
+- (NSString *)getStreamStateName:(UnionPublisherErrorCode)code
+{
+    switch (code){
+            CASE_RETURN (UnionPublisherErrorCode_Unknown)
+            CASE_RETURN (UnionPublisherErrorCode_Invalid_Address)
+            CASE_RETURN (UnionPublisherErrorCode_ConnectServer_Failed)
+            CASE_RETURN (UnionPublisherErrorCode_ConnectStream_Failed)
+            CASE_RETURN (UnionPublisherErroCode_Send_Failed)
+        default:
+            return nil;
+    }
 }
 
 @end

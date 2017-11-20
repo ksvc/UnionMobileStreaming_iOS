@@ -21,6 +21,9 @@ NSString *const UnionCaptureStateDidChangeNotification =@"UnionCaptureStateDidCh
     CGFloat          _previewRotateAng;
     BOOL             _bInterrupt;
     BOOL             _bMute;
+    UnionEncoderCfg  _vCfg;
+    UnionEncoderCfg  _aCfg;
+    BOOL _encoding;
 }
 // vMixerTargets
 @property (nonatomic, copy) NSArray *vPreviewTargets;
@@ -87,8 +90,8 @@ static int presetToIdx(UnionPreset preset) {
 
 - (int) videoBpsFrom:(UnionPreset) preset {
     int values[] = {
-        512, 512, 512, 768,
-        768, 768, 768,1024,
+         512, 512, 512, 768,
+         768, 768, 768,1024,
         1024,1024,1280,1536,
     };
     return values[ presetToIdx(preset) ]* 1000;
@@ -96,8 +99,8 @@ static int presetToIdx(UnionPreset preset) {
 
 - (int) audioBpsFrom:(UnionPreset) preset {
     int values[] = {
-        64, 64, 64, 64,
-        64, 64, 64, 64,
+         64, 64, 64, 64,
+         64, 64, 64, 64,
         128,128,128,128,
     };
     return values[ presetToIdx(preset) ] * 1000;
@@ -105,12 +108,12 @@ static int presetToIdx(UnionPreset preset) {
 
 - (CGSize) previewSizeFrom:(UnionPreset) preset {
     CGSize values[] = {
-        CGSizeMake(640, 360),
-        CGSizeMake(640, 360),
-        CGSizeMake(960, 540),
+        CGSizeMake( 640, 360),
+        CGSizeMake( 640, 360),
+        CGSizeMake( 960, 540),
         CGSizeMake(1280, 720),
-        CGSizeMake(960,  540),
-        CGSizeMake(960,  540),
+        CGSizeMake( 960, 540),
+        CGSizeMake( 960, 540),
         CGSizeMake(1280, 720),
         CGSizeMake(1280, 720),
         CGSizeMake(1280, 720),
@@ -233,6 +236,9 @@ static int presetToIdx(UnionPreset preset) {
            selector:@selector(appEnterBackground)
                name:UIApplicationDidEnterBackgroundNotification
              object:nil];
+    _encoding = NO;
+    _audioEncCfg = &_aCfg;
+    _videoEncCfg = &_vCfg;
     return self;
 }
 - (instancetype)init {
@@ -270,6 +276,7 @@ static int presetToIdx(UnionPreset preset) {
     
     [_aEncoder stop];
     [_vEncoder stop];
+    [_avAdaptor stop];
     [_publisher stopStream];
 }
 
@@ -358,8 +365,16 @@ static int presetToIdx(UnionPreset preset) {
     };
     // GPU 上的数据导出到streamer
     _gpuToStr.videoProcessingCallback = ^(CVPixelBufferRef pixelBuffer, CMTime timeInfo){
-        UnionVt264Encoder * enc = selfWeak.vEncoder;
-        [enc  processPixelBuffer:pixelBuffer timeInfo:timeInfo onComplete:nil];
+        UnionAVFrame  frame = {0};
+        frame.plane[0] = (uint8_t*)pixelBuffer;
+        frame.pts = timeInfo.value*1000/timeInfo.timescale;
+        frame.flags = UNION_AV_FLAG_OPAQUE;
+        frame.planeNum = 1;
+        [selfWeak.vEncoder processAVFrame:&frame onComplete:nil];
+    };
+    _vEncoder.encoderConfigUpdateCallback = ^(UnionEncoderCfg *cfg) {
+        UnionVideoEncCfg * pVCfg = &(cfg->v);
+        [selfWeak.publisher setVideoEncCfg:pVCfg];
     };
     _vEncoder.encodedPacketCallback = ^(UnionAVPacket *pkt) {
         [selfWeak.avAdaptor writePacket:pkt];
@@ -402,35 +417,42 @@ static int presetToIdx(UnionPreset preset) {
         [selfWeak.aEncoder processAVFrame:&frame onComplete:nil];
     };
     //3. 编码压缩的结果发送出去
+    _aEncoder.encoderConfigUpdateCallback = ^(UnionEncoderCfg *cfg) {
+        UnionAudioEncCfg * pACfg = &(cfg->a);
+        [selfWeak.publisher setAudioEncCfg:pACfg];
+    };
     _aEncoder.encodedPacketCallback = ^(UnionAVPacket *pkt) {
         [selfWeak.avAdaptor writePacket:pkt];
     };
     // mixer 的主通道为麦克风,时间戳以main通道为准
     _aMixer.mainTrack = _micTrack;
     [_aMixer setTrack:_micTrack enable:YES];
+    if (_aCfg.a.channels == 2 ) {
+        _aMixer.bStereo = YES;
+    }
 }
 
 - (void) setupEncoder {
-    UnionEncoderCfg  vCfg = {0};
-    UnionEncoderCfg  aCfg = {0};
-    aCfg.a.bitrate = [self audioBpsFrom:_preset];
-    aCfg.a.channels = 1;
-    aCfg.a.sampleFmt = UNION_SAMPLE_FMT_S16;
-    aCfg.a.codecId = UNION_CODEC_ID_AAC;
-    aCfg.a.profile = UNION_CODEC_PROFILE_AAC_LOW;
-    aCfg.a.sampleRate = 44100;
+    UnionAudioEncCfg * pACfg = &(_aCfg.a);
+    UnionVideoEncCfg * pVCfg = &(_vCfg.v);
+    pACfg->bitrate = [self audioBpsFrom:_preset];
+    pACfg->channels = 1;//2;
+    pACfg->sampleFmt = UNION_SAMPLE_FMT_S16;
+    pACfg->codecId = UNION_CODEC_ID_AAC;
+    pACfg->profile = UNION_CODEC_PROFILE_AAC_LOW;
+    pACfg->sampleRate = 44100;
     
-    vCfg.v.codecId = UNION_CODEC_ID_H264;
-    vCfg.v.pixFmt = UNION_PIX_FMT_NV12;
-    vCfg.v.width = (int)_streamDimension.width;
-    vCfg.v.height = (int)_streamDimension.height;
-    vCfg.v.bitrate = [self videoBpsFrom:_preset];
-    vCfg.v.frameRate = _videoFPS;
-    vCfg.v.iFrameInterval = 3.0;
-    vCfg.v.profile = UNION_CODEC_PROFILE_H264_MAIN;
+    pVCfg->codecId = UNION_CODEC_ID_H264;
+    pVCfg->pixFmt = UNION_PIX_FMT_NV12;
+    pVCfg->width = (int)_streamDimension.width;
+    pVCfg->height = (int)_streamDimension.height;
+    pVCfg->bitrate = [self videoBpsFrom:_preset];
+    pVCfg->frameRate = _videoFPS;
+    pVCfg->iFrameInterval = 3.0;
+    pVCfg->profile = UNION_CODEC_PROFILE_H264_MAIN;
     
-    _aEncoder = [[UnionATAACEncoder alloc] initWithConfig:&aCfg];
-    _vEncoder = [[UnionVt264Encoder alloc] initWithConfig:&vCfg];
+    _aEncoder = [[UnionATAACEncoder alloc] initWithConfig:&_aCfg];
+    _vEncoder = [[UnionVt264Encoder alloc] initWithConfig:&_vCfg];
     
     _avAdaptor = [[UnionAdaptor alloc] init];
     _publisher = [[UnionLibrtmpPublisher alloc] init];
@@ -442,8 +464,8 @@ static int presetToIdx(UnionPreset preset) {
         if(UnionBWEstimateEvent_BWDrop == event || UnionBWEstimateEvent_BWRaise == event)
             [selfWeak.vEncoder adjustBitrate:(int)value];
     };
-    [_publisher setAudioEncCfg:&aCfg.a];
-    [_publisher setVideoEncCfg:&vCfg.v];
+    [_publisher setAudioEncCfg:pACfg];
+    [_publisher setVideoEncCfg:pVCfg];
 }
 
 
@@ -597,11 +619,14 @@ static int presetToIdx(UnionPreset preset) {
     // 需要先开始推流再开始编码
     [_publisher startStream:url];
     [_avAdaptor start];
+    _encoding = YES;
     if ([_aEncoder start] == NO) {
         NSLog(@"%@", _aEncoder.error);
+        _encoding = NO;
     }
     if ([_vEncoder start] == NO) {
         NSLog(@"%@", _vEncoder.error);
+        _encoding = NO;
     }
     [_quitLock unlock];
 }
@@ -612,7 +637,37 @@ static int presetToIdx(UnionPreset preset) {
     [_vEncoder stop];
     [_avAdaptor stop];
     [_publisher stopStream];
+    _encoding = NO;
     [_quitLock unlock];
+}
+
+- (void) setVEncoder:(id<UnionEncoder>)vEncoder {
+    if (_encoding) {
+        return;
+    }
+    weakObj(self);
+    _vEncoder = vEncoder;
+    _vEncoder.encodedPacketCallback = ^(UnionAVPacket *pkt) {
+        [selfWeak.avAdaptor writePacket:pkt];
+    };
+    _vEncoder.encoderConfigUpdateCallback = ^(UnionEncoderCfg *cfg) {
+        UnionVideoEncCfg * pVCfg = &(cfg->v);
+        [selfWeak.publisher setVideoEncCfg:pVCfg];
+    };
+}
+- (void) setAEncoder:(id<UnionEncoder>)aEncoder {
+    if (_encoding) {
+        return;
+    }
+    weakObj(self);
+    _aEncoder = aEncoder;
+    _aEncoder.encodedPacketCallback = ^(UnionAVPacket *pkt) {
+        [selfWeak.avAdaptor writePacket:pkt];
+    };
+    _aEncoder.encoderConfigUpdateCallback = ^(UnionEncoderCfg *cfg) {
+        UnionAudioEncCfg * pACfg = &(cfg->a);
+        [selfWeak.publisher setAudioEncCfg:pACfg];
+    };
 }
 
 /**  进入后台 */
