@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'UnionOpenSource'
-  s.version      = '0.0.1'
+  s.version      = '1.0.0'
   s.license      = {
 :type => 'Proprietary',
 :text => <<-LICENSE
@@ -24,38 +24,38 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -all_load' }
 
   s.subspec 'UnionCommon' do |sub|
-    sub.source_files = ['*.{h,c,m}']
+    sub.source_files = ['example/*.{h,c,m}']
   end
   s.subspec 'UnionPublisher' do |sub|
     sub.source_files = [
-      'thirdparty/include/librtmp/*.{h,c,m}',
-      'UnionPublisher/*.{h,c,m}',
-      'UnionPublisher/iOS/*.{h,c,m}',
+      'example/thirdparty/include/librtmp/*.{h,c,m}',
+      'example/UnionPublisher/*.{h,c,m}',
+      'example/UnionPublisher/iOS/*.{h,c,m}',
     ]
     sub.vendored_library = [
-      'thirdparty/libs/librtmp.a',
-      'thirdparty/libs/libssl.a',
-      'thirdparty/libs/libcrypto.a'
+      'example/thirdparty/libs/librtmp.a',
+      'example/thirdparty/libs/libssl.a',
+      'example/thirdparty/libs/libcrypto.a'
     ]
   end
   s.subspec 'UnionEncoderX264' do |sub|
     sub.source_files = [
-      'thirdparty/include/x264/*.{h,c,m}',
-      'UnionEncoderX264/*.{h,c,m}',
-      'UnionEncoderX264/iOS/*.{h,c,m}',
+      'example/thirdparty/include/x264/*.{h,c,m}',
+      'example/UnionEncoderX264/*.{h,c,m}',
+      'example/UnionEncoderX264/iOS/*.{h,c,m}',
     ]
-    sub.vendored_library = ['thirdparty/libs/libx264.a']
+    sub.vendored_library = ['example/thirdparty/libs/libx264.a']
   end
 
   s.subspec 'UnionEncoderFDKAAC' do |sub|
-    sub.source_files = 'UnionEncoderFDKAAC/iOS/*.{h,c,m}'
+    sub.source_files = 'example/UnionEncoderFDKAAC/iOS/*.{h,c,m}'
   end
   s.subspec 'libfdk-aac' do |sub|
     sub.source_files = [
-      'thirdparty/include/fdk-aac/*.h',
-      'UnionEncoderFDKAAC/*.{h,c,m}',
+      'example/thirdparty/include/fdk-aac/*.h',
+      'example/UnionEncoderFDKAAC/*.{h,c,m}',
     ]
-    sub.header_mappings_dir = 'thirdparty/include/'
-    sub.vendored_library = ['thirdparty/libs/libfdk-aac.a']
+    sub.header_mappings_dir = 'example/thirdparty/include/'
+    sub.vendored_library = ['example/thirdparty/libs/libfdk-aac.a']
   end
 end

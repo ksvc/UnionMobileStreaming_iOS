@@ -7,5 +7,5 @@ clib_path='../../UnionMobileStreaming' if clib_path.blank?
 
 target 'UnionStreamDemo' do
   pod 'UnionMobileStreaming',   :path => '../'
-  pod 'UnionOpenSource',        :path => '../example'
+  pod 'UnionOpenSource',        :path => '../'
 end
