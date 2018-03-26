@@ -567,7 +567,7 @@ static int union_librtmp_compose_metadata(UnionLibrtmp_t *librtmp, uint8_t *buff
     offset += len;
     
     //onMetadata
-    AVal onMetadata = AVC("onMetadata");
+    AVal onMetadata = AVC("onMetaData");
     end = AMF_EncodeString(&amfString, &amfString + sizeof(amfString), &onMetadata);
     len = end - amfString;
     
